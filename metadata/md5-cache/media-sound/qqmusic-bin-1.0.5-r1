@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm prepare pretend unpack
+DESCRIPTION=Tencent QQ Music for Linux.
+EAPI=7
+HOMEPAGE=https://y.qq.com/download/download.html
+KEYWORDS=-* ~amd64
+LICENSE=CC0-1.0
+RDEPEND=app-accessibility/at-spi2-atk:2 app-accessibility/at-spi2-core:2 dev-libs/atk dev-libs/expat dev-libs/glib:2 dev-libs/nspr dev-libs/nss media-libs/alsa-lib net-print/cups sys-apps/dbus x11-libs/cairo x11-libs/gdk-pixbuf:2 x11-libs/gtk+:3[X] x11-libs/libX11 x11-libs/libXScrnSaver x11-libs/libXcomposite x11-libs/libXcursor x11-libs/libXdamage x11-libs/libXext x11-libs/libXfixes x11-libs/libXi x11-libs/libXrandr x11-libs/libXrender x11-libs/libXtst x11-libs/libxcb x11-libs/pango x11-misc/xdg-utils
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://dldir1.qq.com/music/clntupate/linux/deb/qqmusic_1.0.5_amd64.deb -> qqmusic-bin-1.0.5-amd64.deb
+_eclasses_=desktop	7fd20552ce4cc97e8acb132a499a7dd8	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	45b49db67094fdafbb6a16a2299e894b	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=cfe9379f72f581f74d8323a28e0ed8d1
