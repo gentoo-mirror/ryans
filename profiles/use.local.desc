@@ -1,0 +1,7 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-text/ydcv-rs:clipboard - Enable feature: use selected text as input
+app-text/ydcv-rs:notify - Enable feature: display explanations via desktop notification
+net-proxy/v2ray-core:tool - Build the additional tool, v2ctl.
