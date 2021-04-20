@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install postinst prepare unpack
+DESCRIPTION=A bash script project that aims to maintain dotfiles.
+EAPI=7
+HOMEPAGE=https://github.com/bekcpear/z16
+INHERIT=git-r3 optfeature
+LICENSE=GPL-2
+PROPERTIES=live
+RDEPEND=sys-apps/grep sys-apps/util-linux
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	optfeature	e142388219c7fee6ff016fe1c78a10a5
+_md5_=b3d45c2b9edc8d535f0788bc2c642093
