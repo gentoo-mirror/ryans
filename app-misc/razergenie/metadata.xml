@@ -6,6 +6,6 @@
 		<name>Ryan Qian</name>
 	</maintainer>
 	<use>
-		<flag name="client">Enable client libraries for python</flag>
+		<flag name="matrix">Includes the matrix discovery feature</flag>
 	</use>
 </pkgmetadata>
