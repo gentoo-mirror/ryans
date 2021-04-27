@@ -5,3 +5,5 @@
 app-text/ydcv-rs:clipboard - Enable feature: use selected text as input
 app-text/ydcv-rs:notify - Enable feature: display explanations via desktop notification
 net-proxy/v2ray-core:tool - Build the additional tool, v2ctl.
+sys-apps/openrazer:client - Enable client libraries.
+sys-apps/openrazer-driver:dkms - Use DKMS to build modules.
