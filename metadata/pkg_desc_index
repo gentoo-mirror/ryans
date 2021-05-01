@@ -2,8 +2,12 @@ app-admin/z16 9999: A bash script project that aims to maintain dotfiles.
 app-misc/razergenie 9999: Razer devices configurator
 app-text/ydcv-rs 0.4.7: A rust version of YouDao Console Version
 dev-libs/libopenrazer 9999: Libraries for razergenie.
+dev-libs/v2ray-domain-list-community 9999 20210430100800: Community managed domain list for V2Ray.
+dev-libs/v2ray-domain-list-community-bin 9999 20210430100800: Community managed domain list for V2Ray.
+dev-libs/v2ray-geoip-bin 9999 202104300531: GeoIP for V2Ray.
+dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 media-sound/qqmusic-bin 1.0.8: Tencent QQ Music for Linux.
-net-proxy/v2ray-core 4.37.3: A platform for building proxies to bypass network restrictions.
+net-proxy/v2ray-core 4.38.3: A platform for building proxies to bypass network restrictions.
 sys-apps/openrazer 3.0.1: A user-space daemon that allows you to manage your Razer peripherals.
 sys-apps/openrazer-driver 3.0.1: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
