@@ -8,3 +8,4 @@ app-text/ydcv-rs:notify - Enable feature: display explanations via desktop notif
 net-proxy/v2ray-core:tool - Build the additional tool, v2ctl.
 sys-apps/openrazer:client - Enable client libraries for python
 sys-apps/openrazer-driver:dkms - Use DKMS to build modules.
+sys-apps/openrazer_test:razer-test - Include the testing binary file

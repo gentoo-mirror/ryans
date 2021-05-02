@@ -1,13 +1,14 @@
 BDEPEND=dev-qt/linguist-tools:5 virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl] >=dev-util/meson-0.54.0 >=dev-util/ninja-1.8.2 dev-util/meson-format-array
-DEFINED_PHASES=compile configure install test unpack
+DEFINED_PHASES=compile configure install prepare test unpack
 DEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5
 DESCRIPTION=A work-in-progress replacement for OpenRazer.
 EAPI=7
 HOMEPAGE=https://github.com/z3ntu/razer_test
 INHERIT=git-r3 meson
+IUSE=razer-test
 LICENSE=GPL-3
 PROPERTIES=live
-RDEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5
+RDEPEND=dev-qt/qtcore:5 dev-qt/qtdbus:5 razer-test? ( dev-libs/hidapi virtual/udev )
 SLOT=0
 _eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	3ea803de86891185c7b1db2c0b5bc8c8	meson	e43eef9331f54965a573ed380854ff47
-_md5_=afd2a478c0c52943b0a242b026a77949
+_md5_=8a7c9798aa7ce52672d9e511daea8f22
