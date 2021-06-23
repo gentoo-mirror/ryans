@@ -8,5 +8,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=sys-apps/grep sys-apps/util-linux
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	optfeature	cc13a38ea4d26565e83ef21d58bcd4ab
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	optfeature	cc13a38ea4d26565e83ef21d58bcd4ab
 _md5_=b3d45c2b9edc8d535f0788bc2c642093
