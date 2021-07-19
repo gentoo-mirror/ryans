@@ -1,0 +1,10 @@
+DEFINED_PHASES=-
+DESCRIPTION=Merge this to pull in Fcitx packages
+EAPI=7
+HOMEPAGE=https://fcitx-im.org
+IUSE=+qt5 +gtk2 +gtk3 +configtool
+KEYWORDS=~amd64 ~x86
+LICENSE=metapackage
+RDEPEND=app-i18n/fcitx:5 qt5? ( app-i18n/fcitx-qt:5 ) gtk2? ( app-i18n/fcitx-gtk:5[gtk2] ) gtk3? ( app-i18n/fcitx-gtk:5[gtk3] ) configtool? ( app-i18n/fcitx-configtool:5 )
+SLOT=5
+_md5_=a20529bcf2ca1abdb36cc085e83f6ae1

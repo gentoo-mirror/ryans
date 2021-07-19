@@ -2,6 +2,22 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+app-i18n/fcitx:coverage - Build the project with gcov support
+app-i18n/fcitx:emoji - Enable emoji loading for CLDR
+app-i18n/fcitx:enchant - Enable Enchant backend (using app-text/enchant) for spelling hinting
+app-i18n/fcitx:keyboard - Enable key event translation with XKB and build keyboard engine
+app-i18n/fcitx:libuuid - Use libuuid for uuid generation
+app-i18n/fcitx:server - Build a fcitx as server, disable this option if you want to use fcitx as an embedded library
+app-i18n/fcitx-configtool:config-qt - Enable fcitx5-config-qt
+app-i18n/fcitx-configtool:kcm - Enable KDE Config Module
+app-i18n/fcitx-gtk:gtk2 - Enable GTK2 IM module
+app-i18n/fcitx-gtk:gtk3 - Enable GTK3 IM module
+app-i18n/fcitx-gtk:snooper - Enable Key Snooper for gtk app
+app-i18n/fcitx-meta:configtool - Enable GUI config tool
+app-i18n/fcitx-meta:gtk2 - Enable GTK2 IM support
+app-i18n/fcitx-meta:gtk3 - Enable GTK3 IM support
+app-i18n/fcitx-qt:only-plugin - Build only plugin
+app-i18n/fcitx-qt:static-plugin - Build plugin as static
 app-misc/razergenie:matrix - Includes the matrix discovery feature
 app-text/ydcv-rs:clipboard - Enable feature: use selected text as input
 app-text/ydcv-rs:notify - Enable feature: display explanations via desktop notification
