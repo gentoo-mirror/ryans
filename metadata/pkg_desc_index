@@ -15,7 +15,7 @@ dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 media-sound/qqmusic-bin 1.1.0: Tencent QQ Music for Linux.
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-proxy/v2ray-core 4.40.1: A platform for building proxies to bypass network restrictions.
-sys-apps/openrazer 3.0.1: A user-space daemon that allows you to manage your Razer peripherals.
-sys-apps/openrazer-driver 3.0.1: A collection of kernel drivers for Razer devices.
+sys-apps/openrazer 3.1.0: A user-space daemon that allows you to manage your Razer peripherals.
+sys-apps/openrazer-driver 3.1.0: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
 x11-libs/xcb-imdkit 1.0.3: Input method development support for xcb
