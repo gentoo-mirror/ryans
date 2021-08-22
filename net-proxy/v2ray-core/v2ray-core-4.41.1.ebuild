@@ -1,7 +1,7 @@
 # Copyright 2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
 inherit systemd go-module
 
@@ -635,7 +635,7 @@ RDEPEND="
 "
 
 pkg_pretend() {
-	if [[ -z "${REPLAING_VERSIONS}" ]]; then
+	if [[ -z "${REPLACING_VERSIONS}" ]]; then
 		cngoproxyset=0
 		if [[ -e "${ROOT}"/etc/portage/mirrors ]]; then
 			grep '^\s*goproxy\s' "${ROOT}"/etc/portage/mirrors >/dev/null 2>&1
