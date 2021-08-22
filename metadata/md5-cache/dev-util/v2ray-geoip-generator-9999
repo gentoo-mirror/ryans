@@ -1,7 +1,7 @@
 BDEPEND=>=dev-lang/go-1.16:= >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.12 app-arch/unzip
 DEFINED_PHASES=compile install postinst unpack
 DESCRIPTION=GeoIP generator for V2Ray.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/v2fly/geoip http://www.maxmind.com/
 INHERIT=git-r3 go-module
 LICENSE=CC-BY-SA-4.0
@@ -9,4 +9,4 @@ PROPERTIES=live
 RESTRICT=strip
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	go-module	8aabf8812bab7a6f07e7a32958c505ef
-_md5_=8a3559feb85e33e46acf97173f8457f9
+_md5_=f70541cd0caee04d5b68a47898dba80e

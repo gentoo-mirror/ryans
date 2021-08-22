@@ -1,9 +1,9 @@
 DEFINED_PHASES=install unpack
 DESCRIPTION=Community managed domain list for V2Ray.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/v2fly/domain-list-community
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=!dev-libs/v2ray-domain-list-community !<net-proxy/v2ray-core-4.38.3
 SLOT=0
-_md5_=c3de84f1c9bdfa8113e942988e923530
+_md5_=13cfb7dbc1338994d76dc3cf470c2101

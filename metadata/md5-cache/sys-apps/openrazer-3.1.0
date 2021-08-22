@@ -1,9 +1,9 @@
 BDEPEND=virtual/pkgconfig python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?] virtual/pkgconfig virtual/pkgconfig
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare test
-DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 DESCRIPTION=A user-space daemon that allows you to manage your Razer peripherals.
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/openrazer/openrazer
+IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
 INHERIT=desktop distutils-r1 systemd udev xdg
 IUSE=client systemd python_targets_python3_8 python_targets_python3_9
 KEYWORDS=~amd64
@@ -12,5 +12,5 @@ RDEPEND=dev-python/dbus-python[python_targets_python3_8(-)?,python_targets_pytho
 REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 )
 SLOT=0
 SRC_URI=https://github.com/openrazer/openrazer/archive/refs/tags/v3.1.0.tar.gz -> openrazer-3.1.0.tar.gz
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	python-utils-r1	08d890890f70fe0096093016e55438d5	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	e297e8afd355d60fb9d2d7b37b81214f	systemd	c846b9e02ac8293bfc9ca38a195c2a18	udev	0a92682c0f65a60d01453db598fc6490	xdg-utils	27f9a2f19502b925ac117bd657aa2979	xdg	e73b9df80596ab8f9c542c01196dec23
-_md5_=b543dcd0601528b3e5538e7c3747571c
+_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multibuild	05a584848db4901c97fcd94ae7cc3a97	python-utils-r1	08d890890f70fe0096093016e55438d5	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	e297e8afd355d60fb9d2d7b37b81214f	systemd	c846b9e02ac8293bfc9ca38a195c2a18	udev	0a92682c0f65a60d01453db598fc6490	xdg-utils	27f9a2f19502b925ac117bd657aa2979	xdg	e73b9df80596ab8f9c542c01196dec23
+_md5_=5d9185b2301afaf4d2c6c162a64536d6
