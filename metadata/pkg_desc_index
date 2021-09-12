@@ -1,3 +1,5 @@
+acct-group/filebrowser 0: Group for the www-apps/filebrowser service
+acct-user/filebrowser 0: User for the www-apps/filebrowser service
 app-admin/z16 9999: A bash script project that aims to maintain dotfiles.
 app-i18n/fcitx 5.0.8: Fcitx (Flexible Context-aware Input Tool with eXtension) input method framework
 app-i18n/fcitx-configtool 5.0.5: GUI configuration tool for Fcitx
@@ -19,4 +21,5 @@ net-proxy/v2ray-core 4.41.1: A platform for building proxies to bypass network r
 sys-apps/openrazer 3.1.0: A user-space daemon that allows you to manage your Razer peripherals.
 sys-apps/openrazer-driver 3.1.0: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
+www-apps/filebrowser 2.17.2: Web File Browser
 x11-libs/xcb-imdkit 1.0.3: Input method development support for xcb
