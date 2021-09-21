@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=MIT
 RDEPEND=!dev-libs/v2ray-domain-list-community !<net-proxy/v2ray-core-4.38.3
 SLOT=0
-SRC_URI=https://github.com/v2fly/domain-list-community/releases/download/20210816014827/dlc.dat.xz -> v2ray-domain-list-community-bin-4.41.1_p20210816014827.dat.xz
+SRC_URI=https://github.com/v2fly/domain-list-community/releases/download/20210920023411/dlc.dat.xz -> v2ray-domain-list-community-bin-4.42.1_p20210920023411.dat.xz
 _md5_=13cfb7dbc1338994d76dc3cf470c2101
