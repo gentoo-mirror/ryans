@@ -1,12 +1,12 @@
 acct-group/filebrowser 0: Group for the www-apps/filebrowser service
 acct-user/filebrowser 0: User for the www-apps/filebrowser service
 app-admin/z16 9999: A bash script project that aims to maintain dotfiles.
-app-i18n/fcitx 5.0.9: Fcitx (Flexible Context-aware Input Tool with eXtension) input method framework
-app-i18n/fcitx-configtool 5.0.6: GUI configuration tool for Fcitx
-app-i18n/fcitx-gtk 5.0.8: GTK IM module and glib based dbus client library for Fcitx
-app-i18n/fcitx-meta 5.0.9: Merge this to pull in Fcitx packages
-app-i18n/fcitx-qt 5.0.7: Qt library and IM module for fcitx5
-app-i18n/fcitx-rime 5.0.7: Chinese RIME input methods for Fcitx
+app-i18n/fcitx 5.0.10: Fcitx (Flexible Context-aware Input Tool with eXtension) input method framework
+app-i18n/fcitx-configtool 5.0.8: GUI configuration tool for Fcitx
+app-i18n/fcitx-gtk 5.0.9: GTK IM module and glib based dbus client library for Fcitx
+app-i18n/fcitx-meta 5.0.10: Merge this to pull in Fcitx packages
+app-i18n/fcitx-qt 5.0.8: Qt library and IM module for fcitx5
+app-i18n/fcitx-rime 5.0.8: Chinese RIME input methods for Fcitx
 app-misc/razergenie 9999: Razer devices configurator
 app-text/ydcv-rs 0.4.7: A rust version of YouDao Console Version
 dev-libs/libopenrazer 9999: Libraries for razergenie.
