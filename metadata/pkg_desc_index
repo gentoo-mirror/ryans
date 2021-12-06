@@ -10,14 +10,14 @@ app-i18n/fcitx-rime 5.0.8: Chinese RIME input methods for Fcitx
 app-misc/razergenie 9999: Razer devices configurator
 app-text/ydcv-rs 0.4.7: A rust version of YouDao Console Version
 dev-libs/libopenrazer 9999: Libraries for razergenie.
-dev-libs/v2ray-domain-list-community 4.42.1_p20210920023411 9999: Community managed domain list for V2Ray.
-dev-libs/v2ray-domain-list-community-bin 4.42.1_p20210920023411 9999: Community managed domain list for V2Ray.
-dev-libs/v2ray-geoip-bin 4.42.1_p202109160028 9999: GeoIP for V2Ray.
+dev-libs/v2ray-domain-list-community 4.43.0_p20211203092402 9999: Community managed domain list for V2Ray.
+dev-libs/v2ray-domain-list-community-bin 4.43.0_p20211203092402 9999: Community managed domain list for V2Ray.
+dev-libs/v2ray-geoip-bin 4.44.0_p202112060252 9999: GeoIP for V2Ray.
 dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
 media-sound/qqmusic-bin 1.1.1: Tencent QQ Music for Linux.
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
-net-proxy/v2ray-core 4.42.2: A platform for building proxies to bypass network restrictions.
+net-proxy/v2ray-core 4.44.0: A platform for building proxies to bypass network restrictions.
 sys-apps/openrazer 3.1.0: A user-space daemon that allows you to manage your Razer peripherals.
 sys-apps/openrazer-driver 3.1.0: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
