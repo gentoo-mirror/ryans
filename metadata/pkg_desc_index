@@ -21,5 +21,5 @@ net-proxy/v2ray-core 4.44.0: A platform for building proxies to bypass network r
 sys-apps/openrazer 3.2.0: A user-space daemon that allows you to manage your Razer peripherals.
 sys-apps/openrazer-driver 3.2.0: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
-www-apps/filebrowser 2.19.0: Web File Browser
+www-apps/filebrowser 2.20.1: Web File Browser
 x11-libs/xcb-imdkit 1.0.3: Input method development support for xcb
