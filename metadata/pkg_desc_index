@@ -18,7 +18,7 @@ kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner w
 media-sound/qqmusic-bin 1.1.2: Tencent QQ Music for Linux.
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-proxy/v2ray-core 4.44.0: A platform for building proxies to bypass network restrictions.
-sys-apps/duf 0.8.0: Disk Usage/Free Utility - a better 'df' alternative
+sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-apps/openrazer 3.2.0: A user-space daemon that allows you to manage your Razer peripherals.
 sys-apps/openrazer-driver 3.2.0: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
