@@ -15,7 +15,7 @@ dev-libs/v2ray-domain-list-community-bin 4.43.0_p20211203092402 9999: Community 
 dev-libs/v2ray-geoip-bin 4.44.0_p202112060252 9999: GeoIP for V2Ray.
 dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
-media-sound/qqmusic-bin 1.1.2: Tencent QQ Music for Linux.
+media-sound/qqmusic-bin 1.1.3: Tencent QQ Music for Linux.
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-proxy/v2ray-core 4.44.0: A platform for building proxies to bypass network restrictions.
 sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
