@@ -1,4 +1,6 @@
+acct-group/cryptpad 0: Group for the www-apps/cryptpad service
 acct-group/filebrowser 0: Group for the www-apps/filebrowser service
+acct-user/cryptpad 0: User for the www-apps/cryptpad service
 acct-user/filebrowser 0: User for the www-apps/filebrowser service
 app-admin/z16 9999: A bash script project that aims to maintain dotfiles.
 app-i18n/fcitx 5.0.15: Fcitx (Flexible Context-aware Input Tool with eXtension) input method framework
@@ -22,5 +24,6 @@ sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-apps/openrazer 3.2.0: A user-space daemon that allows you to manage your Razer peripherals.
 sys-apps/openrazer-driver 3.2.0: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
+www-apps/cryptpad 4.13.0: Collaboration suite, end-to-end encrypted and open-source.
 www-apps/filebrowser 2.21.1: Web File Browser
 x11-libs/xcb-imdkit 1.0.3: Input method development support for xcb
