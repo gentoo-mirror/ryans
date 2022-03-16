@@ -4,10 +4,10 @@ DESCRIPTION=Collaboration suite, end-to-end encrypted and open-source.
 EAPI=8
 HOMEPAGE=https://github.com/xwiki-labs/cryptpad
 INHERIT=systemd
-KEYWORDS=~amd64
+KEYWORDS=~amd64 ~arm64
 LICENSE=AGPL-3
 RDEPEND=>=net-libs/nodejs-12.14.0 acct-user/cryptpad acct-group/cryptpad
 SLOT=0
 SRC_URI=https://github.com/xwiki-labs/cryptpad/archive/refs/tags/4.13.0.tar.gz -> cryptpad-4.13.0.tar.gz https://github.com/bekcpear/cryptpad-release/archive/refs/tags/4.13.0.tar.gz -> cryptpad-release-4.13.0.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	systemd	2736b403a83f194b59b767f3b344c2c1
-_md5_=e42c6d4fd9123d1f256d3f9c125979de
+_md5_=8e64b53e4f419ece8ef78f0857ea4292
