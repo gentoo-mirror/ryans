@@ -14,7 +14,7 @@ SRC_URI="
 	https://raw.githubusercontent.com/42wim/matterbridge/v${PV}/matterbridge.toml.simple -> ${P}.toml.simple
 "
 
-LICENSE="Apache-2"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="-* ~amd64 ~arm64"
 
@@ -44,6 +44,8 @@ src_install() {
 	insinto /etc/matterbridge
 	newins ${P}.toml.sample matterbridge.toml.sample
 	newins ${P}.toml.simple matterbridge.toml
+	fowners matterbridge:matterbridge /etc/matterbridge/matterbridge.toml{,.sample}
+	fperms 640 /etc/matterbridge/matterbridge.toml{,.sample}
 
 	newconfd ${FILESDIR}/matterbridge.confd matterbridge
 	newinitd ${FILESDIR}/matterbridge.initd matterbridge
