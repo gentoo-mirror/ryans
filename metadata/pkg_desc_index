@@ -1,7 +1,9 @@
 acct-group/cryptpad 0: Group for the www-apps/cryptpad service
 acct-group/filebrowser 0: Group for the www-apps/filebrowser service
+acct-group/matterbridge 0: Group for the net-misc/matterbridge{,-bin} service
 acct-user/cryptpad 0: User for the www-apps/cryptpad service
 acct-user/filebrowser 0: User for the www-apps/filebrowser service
+acct-user/matterbridge 0: User for the net-misc/matterbridge{,-bin} service
 app-admin/z16 9999: A bash script project that aims to maintain dotfiles.
 app-i18n/fcitx 5.0.15: Fcitx (Flexible Context-aware Input Tool with eXtension) input method framework
 app-i18n/fcitx-configtool 5.0.12: GUI configuration tool for Fcitx
@@ -20,6 +22,7 @@ kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner w
 media-gfx/weasis-bin 3.8.1: A DICOM viewer available as a desktop application or as a web-based application.
 media-sound/qqmusic-bin 1.1.3: Tencent QQ Music for Linux.
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
+net-misc/matterbridge-bin 1.25.0: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
 net-proxy/v2ray-core 4.44.0-r2: A platform for building proxies to bypass network restrictions.
 sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-apps/openrazer 3.2.0: A user-space daemon that allows you to manage your Razer peripherals.
