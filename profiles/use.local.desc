@@ -23,6 +23,7 @@ app-misc/razergenie:matrix - Includes the matrix discovery feature
 app-text/ydcv-rs:clipboard - Enable feature: use selected text as input
 app-text/ydcv-rs:notify - Enable feature: display explanations via desktop notification
 net-proxy/v2ray-core:tool - Build the additional tool: v2ctl
+net-proxy/v2ray-core-bin:separate-geo - Separate geoip.dat and geosite.dat from this binary package
 net-proxy/v2ray-core-bin:tiny-geoip - Only geoip:cn and geoip:private available for small size
 net-proxy/v2ray-core-bin:tool - Install the additional tool: v2ctl
 sys-apps/openrazer:client - Enable client libraries for python
