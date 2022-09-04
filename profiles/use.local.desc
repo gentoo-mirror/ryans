@@ -26,6 +26,7 @@ net-proxy/v2ray-core:tool - Build the additional tool: v2ctl
 net-proxy/v2ray-core-bin:separate-geo - Separate geoip.dat and geosite.dat from this binary package
 net-proxy/v2ray-core-bin:tiny-geoip - Only geoip:cn and geoip:private available for small size
 net-proxy/v2ray-core-bin:tool - Install the additional tool: v2ctl
+net-vpn/tailscale:derp - Build DERP server
 sys-apps/openrazer:client - Enable client libraries for python
 sys-apps/openrazer-driver:dkms - Install sources to be able to use DKMS to build modules
 sys-apps/openrazer_test:razer-test - Include the testing binary file
