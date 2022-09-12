@@ -12,6 +12,7 @@ app-i18n/fcitx-configtool:config-qt - Enable fcitx5-config-qt
 app-i18n/fcitx-configtool:kcm - Enable KDE Config Module
 app-i18n/fcitx-gtk:gtk2 - Enable GTK2 IM module
 app-i18n/fcitx-gtk:gtk3 - Enable GTK3 IM module
+app-i18n/fcitx-gtk:only-plugin - Build only IM Module
 app-i18n/fcitx-gtk:snooper - Enable Key Snooper for gtk app
 app-i18n/fcitx-meta:configtool - Enable GUI config tool
 app-i18n/fcitx-meta:gtk2 - Enable GTK2 IM support
