@@ -32,6 +32,7 @@ sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-apps/openrazer 3.4.0: A user-space daemon that allows you to manage your Razer peripherals.
 sys-apps/openrazer-driver 3.4.0: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
+sys-fs/zrepl 0.5.0: One-stop ZFS backup & replication solution.
 www-apps/cryptpad 5.0.0 5.1.0: Collaboration suite, end-to-end encrypted and open-source.
 www-apps/filebrowser 2.22.4: Web File Browser
 x11-libs/xcb-imdkit 1.0.3: Input method development support for xcb
