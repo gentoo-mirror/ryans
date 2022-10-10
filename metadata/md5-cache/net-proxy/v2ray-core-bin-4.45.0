@@ -11,5 +11,5 @@ RDEPEND=!net-proxy/v2ray-core !separate-geo? ( !dev-libs/v2ray-geoip-bin !dev-li
 REQUIRED_USE=separate-geo? ( !tiny-geoip )
 SLOT=0
 SRC_URI=amd64? ( https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-64.zip -> v2ray-core-bin-4.45.0_amd64.zip ) arm64? ( https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-arm64-v8a.zip -> v2ray-core-bin-4.45.0_arm64.zip ) riscv? ( https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-riscv64.zip -> v2ray-core-bin-4.45.0_riscv.zip )
-_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	2736b403a83f194b59b767f3b344c2c1	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	unpacker	bc57272a0491765c71d973c8cfd35063
+_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	2736b403a83f194b59b767f3b344c2c1	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	unpacker	bc57272a0491765c71d973c8cfd35063
 _md5_=2470084bfc91bd2e101409b38705caa6
