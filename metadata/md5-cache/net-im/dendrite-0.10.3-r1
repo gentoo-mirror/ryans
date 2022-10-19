@@ -11,4 +11,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/matrix-org/dendrite/archive/refs/tags/v0.10.3.tar.gz -> dendrite-0.10.3.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-dendrite-0.10.3.tar.gz -> dendrite-0.10.3-vendor.tar.gz
 _eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
-_md5_=b0c61df7b02873582a2441f04cca64c5
+_md5_=bad94da71fdeeaebcee42cfc45529190

@@ -24,7 +24,7 @@ dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
 media-gfx/weasis-bin 4.0.2: A DICOM viewer available as a desktop application or as a web-based application.
 media-sound/qqmusic-bin 1.1.4: Tencent QQ Music for Linux.
-net-im/dendrite 0.10.3: Dendrite is a second-generation Matrix homeserver written in Go!
+net-im/dendrite 0.10.3-r1: Dendrite is a second-generation Matrix homeserver written in Go!
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-misc/matterbridge-bin 1.25.2: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
 net-proxy/v2ray-core 4.45.2: A platform for building proxies to bypass network restrictions.
