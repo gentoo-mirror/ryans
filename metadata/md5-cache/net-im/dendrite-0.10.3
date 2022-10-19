@@ -1,0 +1,14 @@
+BDEPEND=>=dev-lang/go-1.18:= virtual/pkgconfig
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Dendrite is a second-generation Matrix homeserver written in Go!
+EAPI=8
+HOMEPAGE=https://github.com/matrix-org/dendrite
+INHERIT=systemd
+KEYWORDS=~amd64
+LICENSE=Apache-2.0 BSD-2 BSD ISC LGPL-3 MIT MPL-2.0 ZLIB
+RDEPEND=acct-user/dendrite acct-group/dendrite
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/matrix-org/dendrite/archive/refs/tags/v0.10.3.tar.gz -> dendrite-0.10.3.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-dendrite-0.10.3.tar.gz -> dendrite-0.10.3-vendor.tar.gz
+_eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
+_md5_=b0c61df7b02873582a2441f04cca64c5
