@@ -6,5 +6,6 @@ IUSE=+configtool +gtk2 +gtk3 +qt5 qt6 +rime
 KEYWORDS=~amd64 ~x86
 LICENSE=metapackage
 RDEPEND=app-i18n/fcitx:5 configtool? ( app-i18n/fcitx-configtool:5 ) gtk2? ( app-i18n/fcitx-gtk:5[gtk2] ) gtk3? ( app-i18n/fcitx-gtk:5[gtk3] ) qt5? ( app-i18n/fcitx-qt:5[qt6?] ) rime? ( app-i18n/fcitx-rime:5 )
+REQUIRED_USE=qt6? ( qt5 )
 SLOT=5
-_md5_=318bb8e19057f425175fc6046bc8c9d0
+_md5_=91825bebea71972bd5078997c4c1e2a3

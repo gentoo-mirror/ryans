@@ -17,8 +17,11 @@ app-i18n/fcitx-gtk:snooper - Enable Key Snooper for gtk app
 app-i18n/fcitx-meta:configtool - Enable GUI config tool
 app-i18n/fcitx-meta:gtk2 - Enable GTK2 IM support
 app-i18n/fcitx-meta:gtk3 - Enable GTK3 IM support
+app-i18n/fcitx-meta:qt5 - Enable QT 5 support
+app-i18n/fcitx-meta:qt6 - Enable QT 6 support
 app-i18n/fcitx-meta:rime - Install RIME Chinese input method
 app-i18n/fcitx-qt:only-plugin - Build only plugin
+app-i18n/fcitx-qt:qt6 - Enable QT 6
 app-i18n/fcitx-qt:static-plugin - Build plugin as static
 app-misc/razergenie:matrix - Includes the matrix discovery feature
 app-text/ydcv-rs:clipboard - Enable feature: use selected text as input
