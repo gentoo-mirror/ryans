@@ -16,7 +16,7 @@ app-i18n/fcitx-rime 5.0.14: Chinese RIME input methods for Fcitx
 app-misc/razergenie 9999: Razer devices configurator
 app-text/ydcv-rs 0.4.7: A rust version of YouDao Console Version
 dev-libs/libopenrazer 9999: Libraries for razergenie.
-dev-libs/v2ray-domain-list-community 4.43.0_p20211203092402 5.0.3_p20220501162639 9999: Community managed domain list for V2Ray.
+dev-libs/v2ray-domain-list-community 5.0.3_p20220501162639 9999: Community managed domain list for V2Ray.
 dev-libs/v2ray-domain-list-community-bin 4.43.0_p20211203092402 5.0.3_p20220501162639 9999: Community managed domain list for V2Ray.
 dev-libs/v2ray-geoip-bin 4.44.0_p202112060252 5.0.3_p202204280105 9999: GeoIP for V2Ray.
 dev-util/act 0.2.31: Run your GitHub Actions locally

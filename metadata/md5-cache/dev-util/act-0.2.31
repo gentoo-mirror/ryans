@@ -1,15 +1,15 @@
-BDEPEND=>=dev-lang/go-1.18:= >=dev-lang/go-1.18 app-arch/unzip
-DEFINED_PHASES=compile install prepare unpack
+BDEPEND=>=dev-lang/go-1.18:= >=dev-lang/go-1.16
+DEFINED_PHASES=compile install unpack
 DEPEND=!dev-go/act
 DESCRIPTION=Run your GitHub Actions locally
 EAPI=8
 HOMEPAGE=https://github.com/nektos/act
-INHERIT=go-module
+INHERIT=go
 KEYWORDS=~amd64 ~arm ~arm64 ~x86
 LICENSE=MIT
 RDEPEND=!dev-go/act || ( app-containers/docker app-containers/podman )
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/nektos/act/archive/refs/tags/v0.2.31.tar.gz -> act-0.2.31.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-act-0.2.31.tar.gz -> act-0.2.31-vendor.tar.gz
-_eclasses_=go-module	15312495dc4fd84f8c37bbe228ea2abd
-_md5_=a8c68357f19f3956dec60eebcbbf72e3
+_eclasses_=go	2deacc6d55e948b1a8d6813653ee4c02
+_md5_=16e2afbc74c0bd5c0b6ed129cc103068
