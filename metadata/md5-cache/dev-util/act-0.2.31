@@ -11,5 +11,5 @@ RDEPEND=!dev-go/act || ( app-containers/docker app-containers/podman )
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/nektos/act/archive/refs/tags/v0.2.31.tar.gz -> act-0.2.31.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-act-0.2.31.tar.gz -> act-0.2.31-vendor.tar.gz
-_eclasses_=go	2deacc6d55e948b1a8d6813653ee4c02
+_eclasses_=go	cb3b7d3f8fffa2c33b281fcd2561a503
 _md5_=16e2afbc74c0bd5c0b6ed129cc103068
