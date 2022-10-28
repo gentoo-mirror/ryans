@@ -7,9 +7,9 @@ inherit go systemd tmpfiles
 # These settings are obtained by running ./build_dist.sh shellvars` in
 # the upstream repo.
 VERSION_MINOR="1.32"
-VERSION_SHORT="1.32.0"
-VERSION_LONG="1.32.0-tfc688fe02"
-VERSION_GIT_HASH="fc688fe02496cacf919f9fed2069ea41a8b87500"
+VERSION_SHORT="1.32.2"
+VERSION_LONG="1.32.2-t54e8fa172"
+VERSION_GIT_HASH="54e8fa172b725b354598daaa7007d261fd932d10"
 
 DESCRIPTION="Tailscale vpn client"
 HOMEPAGE="https://tailscale.com"
@@ -17,7 +17,7 @@ HOMEPAGE="https://tailscale.com"
 SRC_URI="https://github.com/tailscale/tailscale/archive/v${PV}.tar.gz -> ${P}.tar.gz
 	https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-${P}.tar.gz -> ${P}-vendor.tar.gz"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0 BSD-2 BSD MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~arm64 ~riscv ~x86"
 IUSE="derp"
