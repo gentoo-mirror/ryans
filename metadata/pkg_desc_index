@@ -24,7 +24,7 @@ dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
 media-gfx/weasis-bin 4.0.2: A DICOM viewer available as a desktop application or as a web-based application.
 media-sound/qqmusic-bin 1.1.5: Tencent QQ Music for Linux.
-net-im/dendrite 0.10.6: Dendrite is a second-generation Matrix homeserver written in Go!
+net-im/dendrite 0.10.7: Dendrite is a second-generation Matrix homeserver written in Go!
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-misc/matterbridge-bin 1.25.2: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
 net-proxy/v2ray-core 4.45.2: A platform for building proxies to bypass network restrictions.
@@ -36,5 +36,5 @@ sys-apps/openrazer 3.4.0: A user-space daemon that allows you to manage your Raz
 sys-apps/openrazer-driver 3.4.0: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
 www-apps/cryptpad 5.0.0 5.1.0: Collaboration suite, end-to-end encrypted and open-source.
-www-apps/filebrowser 2.22.4: Web File Browser
+www-apps/filebrowser 2.23.0: Web File Browser
 x11-libs/xcb-imdkit 1.0.3: Input method development support for xcb
