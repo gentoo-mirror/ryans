@@ -29,7 +29,7 @@ net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-misc/matterbridge-bin 1.25.2: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
 net-proxy/v2ray-core 4.45.2: A platform for building proxies to bypass network restrictions.
 net-proxy/v2ray-core-bin 4.45.0: A platform for building proxies to bypass network restrictions.
-net-vpn/headscale 0.17.0_beta2: An open source, self-hosted implementation of the Tailscale control server
+net-vpn/headscale 0.17.0_beta4: An open source, self-hosted implementation of the Tailscale control server
 net-vpn/tailscale 1.32.2: Tailscale vpn client
 sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-apps/openrazer 3.4.0: A user-space daemon that allows you to manage your Razer peripherals.
