@@ -14,6 +14,7 @@ app-i18n/fcitx-gtk:gtk2 - Enable GTK2 IM module
 app-i18n/fcitx-gtk:gtk3 - Enable GTK3 IM module
 app-i18n/fcitx-gtk:only-plugin - Build only IM Module
 app-i18n/fcitx-gtk:snooper - Enable Key Snooper for gtk app
+app-i18n/fcitx-meta:bamboo - Install bamboo input method
 app-i18n/fcitx-meta:configtool - Enable GUI config tool
 app-i18n/fcitx-meta:gtk2 - Enable GTK2 IM support
 app-i18n/fcitx-meta:gtk3 - Enable GTK3 IM support
