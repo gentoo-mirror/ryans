@@ -7,4 +7,4 @@ LICENSE=CC-BY-SA-4.0
 RDEPEND=!<net-proxy/v2ray-core-4.38.3
 SLOT=0
 SRC_URI=https://github.com/v2fly/geoip/releases/download/202204280105/geoip.dat -> v2ray-geoip-bin-5.0.3_p202204280105.dat
-_md5_=fceef6dc24382f28c67aa39ddb241e78
+_md5_=1682de40964657b12688572ecbf0c41c

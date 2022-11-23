@@ -11,5 +11,5 @@ RDEPEND=acct-group/headscale acct-user/headscale net-firewall/iptables
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/juanfont/headscale/archive/v0.17.0-beta4.tar.gz -> headscale-0.17.0_beta4.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-headscale-0.17.0-beta4.tar.gz -> headscale-0.17.0_beta4-vendor.tar.gz
-_eclasses_=go	513180c9735531315c2006a181ef4e52	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=go	7a778c2ba223a99fe08077bd16253450	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=97416878bf340ef0c0b2f982004db0b6

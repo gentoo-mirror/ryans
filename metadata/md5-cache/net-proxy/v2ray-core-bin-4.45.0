@@ -1,4 +1,4 @@
-BDEPEND=virtual/pkgconfig
+BDEPEND=app-arch/unzip virtual/pkgconfig
 DEFINED_PHASES=install prepare unpack
 DESCRIPTION=A platform for building proxies to bypass network restrictions.
 EAPI=8
@@ -12,4 +12,4 @@ REQUIRED_USE=separate-geo? ( !tiny-geoip )
 SLOT=0
 SRC_URI=amd64? ( https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-64.zip -> v2ray-core-bin-4.45.0_amd64.zip ) arm64? ( https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-arm64-v8a.zip -> v2ray-core-bin-4.45.0_arm64.zip ) riscv? ( https://github.com/v2fly/v2ray-core/releases/download/v4.45.0/v2ray-linux-riscv64.zip -> v2ray-core-bin-4.45.0_riscv.zip )
 _eclasses_=toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	unpacker	bc57272a0491765c71d973c8cfd35063
-_md5_=2470084bfc91bd2e101409b38705caa6
+_md5_=a908baca945d4fef93742717956106f4

@@ -6,4 +6,4 @@ LICENSE=CC-BY-SA-4.0
 PROPERTIES=live
 RDEPEND=!<net-proxy/v2ray-core-4.38.3
 SLOT=0
-_md5_=d22f62bcdbed026f39013b1a3913bd9e
+_md5_=4c9a5b7e9bf4a3ab979535a48a7a83c8
