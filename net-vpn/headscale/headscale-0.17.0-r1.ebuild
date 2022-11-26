@@ -28,6 +28,7 @@ S="${WORKDIR}/${PN}-${PV//_/-}"
 
 GO_LDFLAGS="-X github.com/juanfont/headscale/cmd/headscale/cli.Version=v${PV//_/-}"
 
+PATCHES=( "${FILESDIR}"/config-sock.diff )
 src_prepare() {
 	rm -rf ./gen || die
 	mv ../gopkg-vendors-vendor-${P//_/-}/gen ./ || die
@@ -37,7 +38,7 @@ src_prepare() {
 src_install() {
 	go_src_install
 	dodoc -r docs/* config-example.yaml
-	keepdir /var/log/headscale /etc/headscale
+	keepdir /etc/headscale
 
 	systemd_dounit "${FILESDIR}"/headscale.service
 
