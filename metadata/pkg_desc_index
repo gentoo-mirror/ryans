@@ -1,7 +1,9 @@
+acct-group/bark-server 0: Group for the www-apps/bark-server service
 acct-group/cryptpad 0: Group for the www-apps/cryptpad service
 acct-group/dendrite 0: Group for the net-im/dendrite service
 acct-group/filebrowser 0: Group for the www-apps/filebrowser service
 acct-group/matterbridge 0: Group for the net-misc/matterbridge{,-bin} service
+acct-user/bark-server 0: User for the www-apps/bark-server service
 acct-user/cryptpad 0: User for the www-apps/cryptpad service
 acct-user/dendrite 0: User for the net-im/dendrite service
 acct-user/filebrowser 0: User for the www-apps/filebrowser service
@@ -36,6 +38,7 @@ sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-apps/openrazer 3.5.0: A user-space daemon that allows you to manage your Razer peripherals.
 sys-apps/openrazer-driver 3.5.0: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
+www-apps/bark-server 2.1.4: A server that allows to get/push customized notifications
 www-apps/cryptpad 5.1.0: Collaboration suite, end-to-end encrypted and open-source.
 www-apps/filebrowser 2.23.0: Web File Browser
 x11-libs/xcb-imdkit 1.0.4: Input method development support for xcb
