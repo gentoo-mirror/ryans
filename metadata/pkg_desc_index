@@ -35,8 +35,8 @@ net-proxy/v2ray-core-bin 4.45.0: A platform for building proxies to bypass netwo
 net-vpn/headscale 0.17.0-r1: An open source, self-hosted implementation of the Tailscale control server
 net-vpn/tailscale 1.32.3: Tailscale vpn client
 sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
-sys-apps/openrazer 3.5.0: A user-space daemon that allows you to manage your Razer peripherals.
-sys-apps/openrazer-driver 3.5.0: A collection of kernel drivers for Razer devices.
+sys-apps/openrazer 3.5.1: A user-space daemon that allows you to manage your Razer peripherals.
+sys-apps/openrazer-driver 3.5.1: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
 www-apps/bark-server 2.1.4: A server that allows to get/push customized notifications
 www-apps/cryptpad 5.1.0: Collaboration suite, end-to-end encrypted and open-source.
