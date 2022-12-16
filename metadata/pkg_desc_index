@@ -41,6 +41,6 @@ sys-apps/openrazer 3.5.1: A user-space daemon that allows you to manage your Raz
 sys-apps/openrazer-driver 3.5.1: A collection of kernel drivers for Razer devices.
 sys-apps/openrazer_test 9999: A work-in-progress replacement for OpenRazer.
 www-apps/bark-server 2.1.4: A server that allows to get/push customized notifications
-www-apps/cryptpad 5.1.0: Collaboration suite, end-to-end encrypted and open-source.
+www-apps/cryptpad 5.2.0: Collaboration suite, end-to-end encrypted and open-source.
 www-apps/filebrowser 2.23.0: Web File Browser
 x11-libs/xcb-imdkit 1.0.4: Input method development support for xcb
