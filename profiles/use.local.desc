@@ -24,7 +24,6 @@ app-i18n/fcitx-meta:rime - Install RIME Chinese input method
 app-i18n/fcitx-qt:only-plugin - Build only plugin
 app-i18n/fcitx-qt:qt6 - Enable QT 6
 app-i18n/fcitx-qt:static-plugin - Build plugin as static
-app-misc/razergenie:matrix - Includes the matrix discovery feature
 app-text/ydcv-rs:clipboard - Enable feature: use selected text as input
 app-text/ydcv-rs:notify - Enable feature: display explanations via desktop notification
 net-proxy/v2ray-core:tool - Build the additional tool: v2ctl
@@ -35,4 +34,3 @@ net-vpn/tailscale:derp - Build DERP server
 net-vpn/tailscale:tools - Build tools (derpprobe for now)
 sys-apps/openrazer:client - Enable client libraries for python
 sys-apps/openrazer-driver:dkms - Install sources to be able to use DKMS to build modules
-sys-apps/openrazer_test:razer-test - Include the testing binary file
