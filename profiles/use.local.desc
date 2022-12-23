@@ -24,8 +24,6 @@ app-i18n/fcitx-meta:rime - Install RIME Chinese input method
 app-i18n/fcitx-qt:only-plugin - Build only plugin
 app-i18n/fcitx-qt:qt6 - Enable QT 6
 app-i18n/fcitx-qt:static-plugin - Build plugin as static
-app-text/ydcv-rs:clipboard - Enable feature: use selected text as input
-app-text/ydcv-rs:notify - Enable feature: display explanations via desktop notification
 net-proxy/v2ray-core:tool - Build the additional tool: v2ctl
 net-proxy/v2ray-core-bin:separate-geo - Separate geoip.dat and geosite.dat from this binary package
 net-proxy/v2ray-core-bin:tiny-geoip - Only geoip:cn and geoip:private available for small size
