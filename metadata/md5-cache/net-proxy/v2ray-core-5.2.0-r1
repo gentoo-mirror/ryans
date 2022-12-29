@@ -11,4 +11,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/v2fly/v2ray-core/archive/refs/tags/v5.2.0.tar.gz -> v2ray-core-5.2.0.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-v2ray-core-5.2.0.tar.gz -> v2ray-core-5.2.0-vendor.tar.gz
 _eclasses_=go	a8ff8928acca3278ba99ad8eb779dfa2	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
-_md5_=2418ff7c73487cbcadfbddb1edd853b2
+_md5_=4376382b28247f28989536fe1c9b1a82
