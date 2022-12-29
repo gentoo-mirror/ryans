@@ -1,15 +1,14 @@
 BDEPEND=>=dev-lang/go-1.19:= <dev-lang/go-1.20:= >=dev-lang/go-1.16 virtual/pkgconfig
-DEFINED_PHASES=compile install prepare unpack
+DEFINED_PHASES=compile install postinst prepare unpack
 DESCRIPTION=A platform for building proxies to bypass network restrictions.
 EAPI=8
 HOMEPAGE=https://github.com/v2fly/v2ray-core
 INHERIT=go systemd
-IUSE=+tool
-KEYWORDS=~amd64 ~riscv
+KEYWORDS=~amd64 ~arm64 ~riscv ~x86
 LICENSE=Apache-2.0 BSD-2 BSD MIT
 RDEPEND=dev-libs/v2ray-geoip-bin || ( dev-libs/v2ray-domain-list-community-bin dev-libs/v2ray-domain-list-community )
 RESTRICT=strip
 SLOT=0
-SRC_URI=https://github.com/v2fly/v2ray-core/archive/refs/tags/v4.45.2.tar.gz -> v2ray-core-4.45.2.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-v2ray-core-4.45.2.tar.gz -> v2ray-core-4.45.2-vendor.tar.gz
+SRC_URI=https://github.com/v2fly/v2ray-core/archive/refs/tags/v5.2.0.tar.gz -> v2ray-core-5.2.0.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-v2ray-core-5.2.0.tar.gz -> v2ray-core-5.2.0-vendor.tar.gz
 _eclasses_=go	a8ff8928acca3278ba99ad8eb779dfa2	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
-_md5_=10682c7f08db4fc15c9ec7606da025c0
+_md5_=2418ff7c73487cbcadfbddb1edd853b2
