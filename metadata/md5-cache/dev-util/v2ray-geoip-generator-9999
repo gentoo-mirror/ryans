@@ -1,4 +1,4 @@
-BDEPEND=>=dev-lang/go-1.16:= >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.18 app-arch/unzip
+BDEPEND=>=dev-lang/go-1.19:= >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.18 app-arch/unzip
 DEFINED_PHASES=compile install postinst unpack
 DESCRIPTION=GeoIP generator for V2Ray.
 EAPI=8
@@ -9,4 +9,4 @@ PROPERTIES=live
 RESTRICT=strip
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	go-module	4c4b34f361efda91762ffeda8f632c02
-_md5_=2cd286e105915b895991711e1469d2dd
+_md5_=deee2a42cd1dee7c781b27443554d595

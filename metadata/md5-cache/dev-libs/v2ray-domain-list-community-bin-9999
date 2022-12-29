@@ -6,4 +6,4 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=!dev-libs/v2ray-domain-list-community !<net-proxy/v2ray-core-4.38.3
 SLOT=0
-_md5_=13cfb7dbc1338994d76dc3cf470c2101
+_md5_=e1f5db404cb3d0ef06abca650c090162
