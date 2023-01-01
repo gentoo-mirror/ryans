@@ -10,6 +10,6 @@ LICENSE=Apache-2.0 BSD-2 BSD MIT
 RDEPEND=!dev-go/act || ( app-containers/docker app-containers/podman )
 RESTRICT=strip
 SLOT=0
-SRC_URI=https://github.com/nektos/act/archive/refs/tags/v0.2.34.tar.gz -> act-0.2.34.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-act-0.2.34.tar.gz -> act-0.2.34-vendor.tar.gz
+SRC_URI=https://github.com/nektos/act/archive/refs/tags/v0.2.35.tar.gz -> act-0.2.35.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-act-0.2.35.tar.gz -> act-0.2.35-vendor.tar.gz
 _eclasses_=go	a8ff8928acca3278ba99ad8eb779dfa2
 _md5_=c68f5c2a724a97ac9dc5005bbc9cab6c
