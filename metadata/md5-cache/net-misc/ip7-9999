@@ -1,0 +1,13 @@
+BDEPEND=>=dev-lang/go-1.19:= >=dev-vcs/git-1.8.2.1[curl] >=dev-lang/go-1.16 virtual/pkgconfig
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=An IP address checker, powered by MaxMind GeoLite2 databases.
+EAPI=8
+HOMEPAGE=https://github.com/bekcpear/ip7
+INHERIT=git-r3 go systemd
+LICENSE=Apache-2.0 BSD GPL-2 ISC
+PROPERTIES=live
+RDEPEND=acct-user/ip7
+RESTRICT=strip
+SLOT=0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	go	b4dacfa2ef0e563c8f225772cc986065	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
+_md5_=26992c09c065fd68c4863c2ae66f1cb5

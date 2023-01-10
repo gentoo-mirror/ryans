@@ -3,12 +3,14 @@ acct-group/cryptpad 0: Group for the www-apps/cryptpad service
 acct-group/dendrite 0: Group for the net-im/dendrite service
 acct-group/derper 0: Group for the DERP service of net-vpn/tailscale
 acct-group/filebrowser 0: Group for the www-apps/filebrowser service
+acct-group/ip7 0: Group for the HTTP API service of net-misc/ip7
 acct-group/matterbridge 0: Group for the net-misc/matterbridge{,-bin} service
 acct-user/bark-server 0: User for the www-apps/bark-server service
 acct-user/cryptpad 0: User for the www-apps/cryptpad service
 acct-user/dendrite 0: User for the net-im/dendrite service
 acct-user/derper 0: User for the DERP service of net-vpn/tailscale
 acct-user/filebrowser 0: User for the www-apps/filebrowser service
+acct-user/ip7 0: User for the HTTP API service of net-misc/ip7
 acct-user/matterbridge 0: User for the net-misc/matterbridge{,-bin} service
 app-admin/z16 9999: A bash script project that aims to maintain dotfiles.
 app-i18n/fcitx 5.0.21: Fcitx (Flexible Context-aware Input Tool with eXtension) input method framework
@@ -30,6 +32,7 @@ media-gfx/weasis-bin 4.0.2 4.0.3: A DICOM viewer available as a desktop applicat
 media-sound/qqmusic-bin 1.1.5: Tencent QQ Music for Linux.
 net-im/dendrite 0.10.8: Dendrite is a second-generation Matrix homeserver written in Go!
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
+net-misc/ip7 9999: An IP address checker, powered by MaxMind GeoLite2 databases.
 net-misc/matterbridge-bin 1.25.2: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
 net-proxy/v2ray-core 4.45.2 5.2.0-r1: A platform for building proxies to bypass network restrictions.
 net-proxy/v2ray-core-bin 4.45.2 5.2.0: A platform for building proxies to bypass network restrictions.
