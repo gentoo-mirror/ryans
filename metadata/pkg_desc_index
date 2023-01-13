@@ -13,6 +13,7 @@ acct-user/filebrowser 0: User for the www-apps/filebrowser service
 acct-user/ip7 0: User for the HTTP API service of net-misc/ip7
 acct-user/matterbridge 0: User for the net-misc/matterbridge{,-bin} service
 app-admin/z16 9999: A bash script project that aims to maintain dotfiles.
+app-crypt/keybase 6.0.2-r1: Keybase command-line utility, and local service
 app-i18n/fcitx 5.0.21: Fcitx (Flexible Context-aware Input Tool with eXtension) input method framework
 app-i18n/fcitx-bamboo 1.0.2: Typing Vietnamese by Bamboo core engine for Fcitx5
 app-i18n/fcitx-configtool 5.0.16: GUI configuration tool for Fcitx
