@@ -225,6 +225,29 @@ _go_set_go_sum_list_src_uri() {
 }
 _go_set_go_sum_list_src_uri
 
+# @FUNCTION: go_version
+# @USAGE: [-f]
+# @DESCRIPTION:
+# Get version with format major.minor of the current executing go binary,
+# optionally specify -f to show the full version with the patch number.
+go_version() {
+	debug-print-function "${FUNCNAME}" "${@}"
+
+	local output=$(go version | cut -d' ' -f3) \
+		major= minor= patch=
+
+	IFS='.' read major minor patch <<<"$output"
+	major=${major#go}
+
+	if [[ $1 == '-f' ]] && [[ -n $patch ]]; then
+		output="${major}.${minor}.${patch}"
+	else
+		output="${major}.${minor}"
+	fi
+
+	echo -n $output
+}
+
 # @FUNCTION: go_setup_proxy
 # @DESCRIPTION:
 # Setup the local proxy for downloading go modules.
@@ -260,6 +283,19 @@ go_setup_vendor() {
 
 	if [[ ! -d "${S}/vendor" ]]; then
 		if [[ ${PROPERTIES} =~ (^|[[:space:]])live([[:space:]]|$) ]]; then
+			# Golang does not support the 'socks5h://' schema for http[s]_proxy env variable:
+			#   https://github.com/golang/go/blob/9123221ccf3c80c741ead5b6f2e960573b1676b9/src/vendor/golang.org/x/net/http/httpproxy/proxy.go#L152-L159
+			# while libcurl supports it:
+			#   https://github.com/curl/curl/blob/ae98b85020094fb04eee7e7b4ec4eb1a38a98b98/docs/libcurl/opts/CURLOPT_PROXY.3#L48-L59
+			# So, if a 'https_proxy=socks5h://127.0.0.1:1080' env has been set in the
+			# make.conf to make curl (assuming curl is the current download command) to
+			# download all packages through the proxy, go-module_live_vendor will
+			# fail.
+			# The only difference between these two schemas is, 'socks5h' will solve
+			# the hostname via the proxy while 'socks5' will not. I think it's ok to
+			# fallback 'socks5h' to 'socks5' for `go vendor` command and warn user,
+			# until golang supports it.
+			# related to issue: https://github.com/golang/go/issues/24135
 			local hp
 			local -a hps
 			if [[ -n $HTTP_PROXY ]]; then
@@ -281,7 +317,11 @@ go_setup_vendor() {
 				fi
 			done
 			pushd "${S}" >/dev/null || die
-			edo go mod tidy
+			# We don't care the compatibility with other go versions due to it's a temporary dir and the
+			# only purpose here is to build this package under current version of the go binary,
+			# so specify a compatible go version with current version number here to avoid incompatibility,
+			# such as go1.16 and go1.17 has different build list calculation methods (https://go.dev/ref/mod#graph-pruning).
+			edo go mod tidy -compat $(go_version)
 			edo go mod vendor
 			popd >/dev/null || die
 		else
