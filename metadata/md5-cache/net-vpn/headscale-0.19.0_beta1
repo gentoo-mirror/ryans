@@ -10,5 +10,5 @@ RDEPEND=acct-group/headscale acct-user/headscale
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/juanfont/headscale/archive/refs/tags/v0.19.0-beta1.tar.gz -> headscale-0.19.0_beta1.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-headscale-0.19.0-beta1.tar.gz -> headscale-0.19.0_beta1-vendor.tar.gz
-_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	go	4f95adb0bd6c7c88eb7a037b719b414e	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	go	4baf93b06a3d3e538dc203e751aa9d3f	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=5f380106d734c2deb9f4b3373570afd3
