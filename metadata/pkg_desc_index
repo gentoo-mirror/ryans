@@ -37,7 +37,7 @@ net-misc/ip7 9999: An IP address checker, powered by MaxMind GeoLite2 databases.
 net-misc/matterbridge-bin 1.25.2: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
 net-proxy/v2ray-core 4.45.2 5.2.1: A platform for building proxies to bypass network restrictions.
 net-proxy/v2ray-core-bin 4.45.2 5.2.1: A platform for building proxies to bypass network restrictions.
-net-vpn/headscale 0.18.0 0.19.0_beta1: An open source, self-hosted implementation of the Tailscale control server
+net-vpn/headscale 0.18.0 0.19.0: An open source, self-hosted implementation of the Tailscale control server
 net-vpn/tailscale 1.36.0: Tailscale VPN client and CLI tools
 sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-apps/openrazer 3.5.1: A user-space daemon that allows you to manage your Razer peripherals.
