@@ -10,5 +10,5 @@ RDEPEND=acct-user/dendrite acct-group/dendrite
 RESTRICT=strip strip
 SLOT=0
 SRC_URI=https://github.com/matrix-org/dendrite/archive/refs/tags/v0.11.0.tar.gz -> dendrite-0.11.0.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-dendrite-0.11.0.tar.gz -> dendrite-0.11.0-vendor.tar.gz
-_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	version	c0b04bf90eb34652bc61d44871805675	go	e19aa5a694364f879f33978316d6abc4	toolchain-funcs	cf009a3ed4e5bef503e7a9f215791a78	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	version	c0b04bf90eb34652bc61d44871805675	go	e19aa5a694364f879f33978316d6abc4	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=5710735ecf3d6987809754bab00ffe25
