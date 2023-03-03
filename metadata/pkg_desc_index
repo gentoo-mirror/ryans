@@ -28,7 +28,7 @@ dev-libs/libopenrazer 9999: Libraries for razergenie.
 dev-libs/v2ray-domain-list-community 5.20230216031305 9999: Community managed domain list for V2Ray.
 dev-libs/v2ray-domain-list-community-bin 5.20230216031305 9999: Community managed domain list for V2Ray.
 dev-libs/v2ray-geoip-bin 5.202302160443 9999: GeoIP for V2Ray.
-dev-util/act 0.2.42: Run your GitHub Actions locally
+dev-util/act 0.2.43: Run your GitHub Actions locally
 dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
 media-gfx/weasis-bin 4.0.2 4.0.3: A DICOM viewer available as a desktop application or as a web-based application.
