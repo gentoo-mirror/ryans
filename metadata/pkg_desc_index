@@ -4,6 +4,7 @@ acct-group/dendrite 0: Group for the net-im/dendrite service
 acct-group/derper 0: Group for the DERP service of net-vpn/tailscale
 acct-group/filebrowser 0: Group for the www-apps/filebrowser service
 acct-group/ip7 0: Group for the HTTP API service of net-misc/ip7
+acct-group/keycloak 0: Group for the keycloak daemon
 acct-group/matterbridge 0: Group for the net-misc/matterbridge{,-bin} service
 acct-user/bark-server 0: User for the www-apps/bark-server service
 acct-user/cryptpad 0: User for the www-apps/cryptpad service
@@ -11,6 +12,7 @@ acct-user/dendrite 0: User for the net-im/dendrite service
 acct-user/derper 0: User for the DERP service of net-vpn/tailscale
 acct-user/filebrowser 0: User for the www-apps/filebrowser service
 acct-user/ip7 0: User for the HTTP API service of net-misc/ip7
+acct-user/keycloak 0: User for the keycloak daemon
 acct-user/matterbridge 0: User for the net-misc/matterbridge{,-bin} service
 app-admin/z16 9999: A bash script project that aims to maintain dotfiles.
 app-crypt/keybase 6.0.2-r1: Keybase command-line utility, and local service
@@ -36,10 +38,11 @@ media-sound/qqmusic-bin 1.1.5: Tencent QQ Music for Linux.
 net-im/dendrite 0.11.0: Dendrite is a second-generation Matrix homeserver written in Go!
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-misc/ip7 9999: An IP address checker, powered by MaxMind GeoLite2 databases.
+net-misc/keycloak-bin 21.0.1: Open Source Identity and Access Management
 net-misc/matterbridge-bin 1.26.0: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
 net-proxy/v2ray-core 4.45.2-r1 5.4.0: A platform for building proxies to bypass network restrictions.
 net-proxy/v2ray-core-bin 4.45.2 5.2.1: A platform for building proxies to bypass network restrictions.
-net-vpn/headscale 0.18.0 0.19.0 0.20.0: An open source, self-hosted implementation of the Tailscale control server
+net-vpn/headscale 0.20.0: An open source, self-hosted implementation of the Tailscale control server
 net-vpn/tailscale 1.36.2: Tailscale VPN client and CLI tools
 sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-apps/openrazer 3.5.1: A user-space daemon that allows you to manage your Razer peripherals.
