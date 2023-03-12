@@ -43,7 +43,7 @@ net-misc/matterbridge-bin 1.26.0: a simple chat bridge, IRC | Matrix | Mattermos
 net-proxy/v2ray-core 4.45.2-r1 5.4.0: A platform for building proxies to bypass network restrictions.
 net-proxy/v2ray-core-bin 4.45.2 5.2.1: A platform for building proxies to bypass network restrictions.
 net-vpn/headscale 0.20.0: An open source, self-hosted implementation of the Tailscale control server
-net-vpn/tailscale 1.36.2: Tailscale VPN client and CLI tools
+net-vpn/tailscale 1.36.2-r1: Tailscale VPN client and CLI tools
 sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
 sys-apps/openrazer 3.5.1: A user-space daemon that allows you to manage your Razer peripherals.
 sys-apps/openrazer-driver 3.5.1: A collection of kernel drivers for Razer devices.
