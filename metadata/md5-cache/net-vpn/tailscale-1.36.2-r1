@@ -12,4 +12,4 @@ RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/tailscale/tailscale/archive/v1.36.2.tar.gz -> tailscale-1.36.2.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-tailscale-1.36.2.tar.gz -> tailscale-1.36.2-vendor.tar.gz
 _eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	version	c0b04bf90eb34652bc61d44871805675	go	b231209075cea37158411bac7bd268df	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	systemd	5f4bb0758df2e483babf68cd517078ca	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
-_md5_=6175c21c977bd878856098c9222c6205
+_md5_=2a73393bf276cf69da88c20092c8404b
