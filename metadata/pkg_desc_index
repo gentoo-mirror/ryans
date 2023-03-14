@@ -35,7 +35,7 @@ dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
 media-gfx/weasis-bin 4.0.2 4.0.3: A DICOM viewer available as a desktop application or as a web-based application.
 media-sound/qqmusic-bin 1.1.5: Tencent QQ Music for Linux.
-net-im/dendrite 0.11.0: Dendrite is a second-generation Matrix homeserver written in Go!
+net-im/dendrite 0.11.1 0.12.0: Dendrite is a second-generation Matrix homeserver written in Go!
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-misc/ip7 9999: An IP address checker, powered by MaxMind GeoLite2 databases.
 net-misc/keycloak-bin 21.0.1: Open Source Identity and Access Management
