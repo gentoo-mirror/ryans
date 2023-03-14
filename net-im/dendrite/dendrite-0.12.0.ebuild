@@ -1,4 +1,4 @@
-# Copyright 2022 Gentoo Authors
+# Copyright 2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -16,11 +16,9 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64"
 
 BDEPEND="
-	>=dev-lang/go-1.18:=
+	>dev-lang/go-1.18.9999:=
+	<=dev-lang/go-1.20.9999:=
 "
-# wait https://github.com/matrix-org/pinecone/pull/78 merge
-BDEPEND+=" <dev-lang/go-1.20"
-
 RDEPEND="
 	acct-user/dendrite
 	acct-group/dendrite
@@ -31,8 +29,7 @@ src_install() {
 	go_src_install
 
 	insinto /etc/dendrite
-	doins dendrite-sample.monolith.yaml
-	doins dendrite-sample.polylith.yaml
+	doins dendrite-sample.yaml
 
 	keepdir /var/log/dendrite
 	fowners dendrite:dendrite /var/log/dendrite
@@ -40,7 +37,7 @@ src_install() {
 
 	dodoc -r docs/*
 
-	newinitd "${FILESDIR}/dendrite-monolith.initd" dendrite-monolith
-	newconfd "${FILESDIR}/dendrite-monolith.confd" dendrite-monolith
-	systemd_dounit "${FILESDIR}"/dendrite-monolith.service
+	newinitd "${FILESDIR}/dendrite.initd" dendrite
+	newconfd "${FILESDIR}/dendrite.confd" dendrite
+	systemd_dounit "${FILESDIR}"/dendrite.service
 }
