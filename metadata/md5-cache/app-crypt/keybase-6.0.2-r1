@@ -9,5 +9,5 @@ LICENSE=Apache-2.0 BSD-2 BSD ISC MIT MPL-2.0
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/keybase/client/archive/refs/tags/v6.0.2.tar.gz -> keybase-6.0.2.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-keybase-6.0.2.tar.gz -> keybase-6.0.2-vendor.tar.gz
-_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	bash-completion-r1	2d494116054ca45ab8d545a5da206bbb	edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	version	7d27b7786280729d7491350e2bac074e	go	b93eb3e606d2946938fa2d649e74d936	systemd	5f4bb0758df2e483babf68cd517078ca
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	bash-completion-r1	f5e7a020fd9c741740756aac61bf75ff	edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	version	7d27b7786280729d7491350e2bac074e	go	b93eb3e606d2946938fa2d649e74d936	systemd	5f4bb0758df2e483babf68cd517078ca
 _md5_=50b4a89ec39e230caa950866cd0a44c0
