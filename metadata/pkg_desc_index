@@ -25,15 +25,15 @@ app-i18n/fcitx-meta 5.0.12: Merge this to pull in Fcitx packages
 app-i18n/fcitx-qt 5.0.17: Qt library and IM module for fcitx5
 app-i18n/fcitx-rime 5.0.16: Chinese RIME input methods for Fcitx
 app-misc/razergenie 9999: Razer devices configurator
-dev-lang/go 1.19.7 1.19.8 1.20.2 1.20.3: A concurrent garbage collected and typesafe programming language
+dev-lang/go 1.19.8 1.19.9 1.20.3 1.20.4: A concurrent garbage collected and typesafe programming language
 dev-libs/libopenrazer 9999: Libraries for razergenie.
 dev-libs/v2ray-domain-list-community 5.20230322033246 9999: Community managed domain list for V2Ray.
 dev-libs/v2ray-domain-list-community-bin 5.20230322033246 9999: Community managed domain list for V2Ray.
 dev-libs/v2ray-geoip-bin 5.202303160048 9999: GeoIP for V2Ray.
-dev-util/act 0.2.43: Run your GitHub Actions locally
+dev-util/act 0.2.45: Run your GitHub Actions locally
 dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
-media-gfx/weasis-bin 4.0.2 4.0.3: A DICOM viewer available as a desktop application or as a web-based application.
+media-gfx/weasis-bin 4.0.3 4.1.0: A DICOM viewer available as a desktop application or as a web-based application.
 media-sound/qqmusic-bin 1.1.5: Tencent QQ Music for Linux.
 net-im/dendrite 0.11.1 0.12.0: Dendrite is a second-generation Matrix homeserver written in Go!
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
@@ -42,12 +42,12 @@ net-misc/keycloak-bin 21.0.1: Open Source Identity and Access Management
 net-misc/matterbridge-bin 1.26.0: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
 net-proxy/v2ray-core 4.45.2-r1 5.4.1: A platform for building proxies to bypass network restrictions.
 net-proxy/v2ray-core-bin 4.45.2 5.2.1: A platform for building proxies to bypass network restrictions.
-net-vpn/headscale 0.21.0 0.22.1: An open source, self-hosted implementation of the Tailscale control server
-net-vpn/tailscale 1.38.4: Tailscale VPN client and CLI tools
+net-vpn/headscale 0.21.0 0.22.3: An open source, self-hosted implementation of the Tailscale control server
+net-vpn/tailscale 1.38.4 1.40.1: Tailscale VPN client and CLI tools
 sys-apps/duf 0.8.1: Disk Usage/Free Utility - a better 'df' alternative
-sys-apps/openrazer 3.5.1: A user-space daemon that allows you to manage your Razer peripherals.
-sys-apps/openrazer-driver 3.5.1: A collection of kernel drivers for Razer devices.
-www-apps/bark-server 2.1.4: A server that allows to get/push customized notifications
+sys-apps/openrazer 3.6.1: A user-space daemon that allows you to manage your Razer peripherals.
+sys-apps/openrazer-driver 3.6.1: A collection of kernel drivers for Razer devices.
+www-apps/bark-server 2.1.4 2.1.5: A server that allows to get/push customized notifications
 www-apps/cryptpad 5.2.1: Collaboration suite, end-to-end encrypted and open-source.
 www-apps/filebrowser 2.23.0: Web File Browser
 x11-libs/xcb-imdkit 1.0.5: Input method development support for xcb
