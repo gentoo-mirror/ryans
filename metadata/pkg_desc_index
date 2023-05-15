@@ -27,9 +27,9 @@ app-i18n/fcitx-rime 5.0.16: Chinese RIME input methods for Fcitx
 app-misc/razergenie 9999: Razer devices configurator
 dev-lang/go 1.19.8 1.19.9 1.20.3 1.20.4: A concurrent garbage collected and typesafe programming language
 dev-libs/libopenrazer 9999: Libraries for razergenie.
-dev-libs/v2ray-domain-list-community 5.20230322033246 9999: Community managed domain list for V2Ray.
-dev-libs/v2ray-domain-list-community-bin 5.20230322033246 9999: Community managed domain list for V2Ray.
-dev-libs/v2ray-geoip-bin 5.202303160048 9999: GeoIP for V2Ray.
+dev-libs/v2ray-domain-list-community 5.20230515070747 9999: Community managed domain list for V2Ray.
+dev-libs/v2ray-domain-list-community-bin 5.20230515070747 9999: Community managed domain list for V2Ray.
+dev-libs/v2ray-geoip-bin 5.202305110042 9999: GeoIP for V2Ray.
 dev-util/act 0.2.45: Run your GitHub Actions locally
 dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
