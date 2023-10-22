@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install prepare
+DESCRIPTION=Collaboration suite, end-to-end encrypted and open-source.
+EAPI=8
+HOMEPAGE=https://github.com/xwiki-labs/cryptpad
+INHERIT=systemd
+KEYWORDS=~amd64 ~arm64
+LICENSE=AGPL-3
+RDEPEND=>=net-libs/nodejs-12.14.0 acct-user/cryptpad acct-group/cryptpad
+SLOT=0
+SRC_URI=https://github.com/xwiki-labs/cryptpad/archive/refs/tags/5.5.0.tar.gz -> cryptpad-5.5.0.tar.gz https://github.com/bekcpear/cryptpad-release/archive/refs/tags/5.5.0.tar.gz -> cryptpad-release-5.5.0.tar.gz
+_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942
+_md5_=af28b49476d0dba85ce2f00a75619867
