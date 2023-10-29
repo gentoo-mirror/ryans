@@ -9,5 +9,5 @@ LICENSE=AGPL-3 Apache-2.0 BSD-2 BSD ISC MIT MPL-2.0
 RDEPEND=acct-user/matterbridge acct-group/matterbridge
 SLOT=0
 SRC_URI=amd64? ( https://github.com/42wim/matterbridge/releases/download/v1.26.0/matterbridge-1.26.0-linux-64bit -> matterbridge-bin-1.26.0_amd64 ) arm64? ( https://github.com/42wim/matterbridge/releases/download/v1.26.0/matterbridge-1.26.0-linux-arm64 -> matterbridge-bin-1.26.0_arm64 ) https://raw.githubusercontent.com/42wim/matterbridge/v1.26.0/matterbridge.toml.sample -> matterbridge-bin-1.26.0.toml.sample https://raw.githubusercontent.com/42wim/matterbridge/v1.26.0/matterbridge.toml.simple -> matterbridge-bin-1.26.0.toml.simple
-_eclasses_=toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942
+_eclasses_=toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942
 _md5_=3cff7678f074400b42da378b9e757c2c
