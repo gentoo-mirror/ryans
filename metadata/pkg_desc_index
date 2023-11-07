@@ -25,7 +25,7 @@ app-i18n/fcitx-meta 5.0.12: Merge this to pull in Fcitx packages
 app-i18n/fcitx-qt 5.1.1: Qt library and IM module for fcitx5
 app-i18n/fcitx-rime 5.1.2: Chinese RIME input methods for Fcitx
 app-misc/razergenie 9999: Razer devices configurator
-dev-lang/go 1.20.10 1.21.3: A concurrent garbage collected and typesafe programming language
+dev-lang/go 1.20.10 1.20.11 1.21.3 1.21.4: A concurrent garbage collected and typesafe programming language
 dev-libs/libopenrazer 9999: Libraries for razergenie.
 dev-libs/v2ray-domain-list-community 5.20231021075451 9999: Community managed domain list for V2Ray.
 dev-libs/v2ray-domain-list-community-bin 5.20231021075451 9999: Community managed domain list for V2Ray.
@@ -35,10 +35,10 @@ dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
 media-gfx/weasis-bin 4.2.0: A DICOM viewer available as a desktop application or as a web-based application.
 media-sound/qqmusic-bin 1.1.5: Tencent QQ Music for Linux.
-net-im/dendrite 0.12.0 0.13.3: Dendrite is a second-generation Matrix homeserver written in Go!
+net-im/dendrite 0.12.0 0.13.4: Dendrite is a second-generation Matrix homeserver written in Go!
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-misc/ip7 9999: An IP address checker, powered by MaxMind GeoLite2 databases.
-net-misc/keycloak-bin 21.0.1 22.0.4: Open Source Identity and Access Management
+net-misc/keycloak-bin 21.0.1 22.0.5: Open Source Identity and Access Management
 net-misc/matterbridge-bin 1.26.0: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
 net-proxy/v2ray-core 4.45.2-r1 5.8.0: A platform for building proxies to bypass network restrictions.
 net-proxy/v2ray-core-bin 4.45.2 5.2.1: A platform for building proxies to bypass network restrictions.
