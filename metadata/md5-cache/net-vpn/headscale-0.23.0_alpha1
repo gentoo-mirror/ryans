@@ -11,5 +11,5 @@ RDEPEND=acct-group/headscale acct-user/headscale virtual/tmpfiles
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/juanfont/headscale/archive/refs/tags/v0.23.0-alpha1.tar.gz -> headscale-0.23.0_alpha1.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-headscale-0.23.0-alpha1.tar.gz -> headscale-0.23.0_alpha1-vendor.tar.gz
-_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	version	7d27b7786280729d7491350e2bac074e	go	1cde3bd9981ff927bdce93e8961b22b9	toolchain-funcs	edeef89edaf21d30225d31702ab117ac	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
+_eclasses_=edo	c0eb9cbe6b0bd01fcb4918f12598a4d3	version	7d27b7786280729d7491350e2bac074e	go	1cde3bd9981ff927bdce93e8961b22b9	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942	tmpfiles	216aa76c3a6fcb5d893c23a0de86048f
 _md5_=03cbc67a7fe502ec98a532a82f4f29f7
