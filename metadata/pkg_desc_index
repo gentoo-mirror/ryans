@@ -23,7 +23,7 @@ app-i18n/fcitx-meta 5.0.12: Merge this to pull in Fcitx packages
 app-i18n/fcitx-qt 5.1.1: Qt library and IM module for fcitx5
 app-i18n/fcitx-rime 5.1.2: Chinese RIME input methods for Fcitx
 app-misc/razergenie 9999: Razer devices configurator
-app-text/tldr-c 1.6.0-r1: C command-line client for tldr pages
+app-text/tldr-c 1.6.1: C command-line client for tldr pages
 dev-lang/go 1.20.12 1.21.5: A concurrent garbage collected and typesafe programming language
 dev-libs/libopenrazer 9999: Libraries for razergenie.
 dev-libs/v2ray-domain-list-community 5.20231021075451 9999: Community managed domain list for V2Ray.
