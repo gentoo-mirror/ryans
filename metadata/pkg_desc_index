@@ -26,9 +26,9 @@ app-misc/razergenie 9999: Razer devices configurator
 app-text/tldr-c 1.6.1: C command-line client for tldr pages
 dev-lang/go 1.20.12 1.21.5: A concurrent garbage collected and typesafe programming language
 dev-libs/libopenrazer 9999: Libraries for razergenie.
-dev-libs/v2ray-domain-list-community 5.20231021075451 9999: Community managed domain list for V2Ray.
-dev-libs/v2ray-domain-list-community-bin 5.20231021075451 9999: Community managed domain list for V2Ray.
-dev-libs/v2ray-geoip-bin 5.202310190037 9999: GeoIP for V2Ray.
+dev-libs/v2ray-domain-list-community 5.20231215153121 9999: Community managed domain list for V2Ray.
+dev-libs/v2ray-domain-list-community-bin 5.20231215153121 9999: Community managed domain list for V2Ray.
+dev-libs/v2ray-geoip-bin 5.202312140039 9999: GeoIP for V2Ray.
 dev-util/act 0.2.52: Run your GitHub Actions locally
 dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
@@ -38,7 +38,7 @@ net-im/dendrite 0.12.0 0.13.4: Dendrite is a second-generation Matrix homeserver
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-misc/keycloak-bin 21.0.1 22.0.5: Open Source Identity and Access Management
 net-misc/matterbridge-bin 1.26.0: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
-net-proxy/v2ray-core 4.45.2-r1 5.8.0: A platform for building proxies to bypass network restrictions.
+net-proxy/v2ray-core 4.45.2-r1 5.13.0: A platform for building proxies to bypass network restrictions.
 net-proxy/v2ray-core-bin 4.45.2 5.2.1: A platform for building proxies to bypass network restrictions.
 net-vpn/headscale 0.21.0 0.22.3 0.23.0_alpha1: An open source, self-hosted implementation of the Tailscale control server
 net-vpn/tailscale 1.38.4 1.42.0 1.50.1: Tailscale VPN client and CLI tools
