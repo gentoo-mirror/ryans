@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=!app-i18n/rime-data:0
+DESCRIPTION=Essential files for building up Rime configuration
+EAPI=8
+HOMEPAGE=https://rime.im/ https://github.com/rime/rime-prelude
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=!app-i18n/rime-data:0
+SLOT=0
+SRC_URI=https://github.com/rime/rime-prelude/archive/dd84abecc33f0b05469f1d744e32d2b60b3529e3.tar.gz -> rime-prelude-0.0.0.20220410.tar.gz
+_md5_=694a8780e99cdd9e47065ecfb9cf5811

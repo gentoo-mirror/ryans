@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=!app-i18n/rime-data:0
+DESCRIPTION=quick input schema and dictionary for RIME
+EAPI=8
+HOMEPAGE=https://rime.im/ https://github.com/rime/rime-quick
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=!app-i18n/rime-data:0
+SLOT=0
+SRC_URI=https://github.com/rime/rime-quick/archive/3fe5911ba608cb2df1b6301b76ad1573bd482a76.tar.gz -> rime-quick-0.0.0.20190120.tar.gz
+_md5_=022eb4176e4fffe3d5533cec0aded77e

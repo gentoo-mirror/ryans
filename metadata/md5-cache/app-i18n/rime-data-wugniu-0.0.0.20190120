@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=!app-i18n/rime-data:0
+DESCRIPTION=wugniu input schema and dictionary for RIME
+EAPI=8
+HOMEPAGE=https://rime.im/ https://github.com/rime/rime-wugniu
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=!app-i18n/rime-data:0
+SLOT=0
+SRC_URI=https://github.com/rime/rime-wugniu/archive/abd1ee98efbf170258fcf43875c21a4259e00b61.tar.gz -> rime-wugniu-0.0.0.20190120.tar.gz
+_md5_=39b099d7a789d2c1b27d97b023fc0735

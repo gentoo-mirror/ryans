@@ -9,6 +9,25 @@ app-i18n/fcitx-meta:gtk3 - Enable GTK3 IM support
 app-i18n/fcitx-meta:qt5 - Enable QT 5 support
 app-i18n/fcitx-meta:qt6 - Enable QT 6 support
 app-i18n/fcitx-meta:rime - Install RIME Chinese input method
+app-i18n/rime-data:array - Install array input schema and dictionary for RIME
+app-i18n/rime-data:bopomofo - Install bopomofo input schema for RIME
+app-i18n/rime-data:cangjie - Install cangjie input schema and dictionary for RIME
+app-i18n/rime-data:combo-pinyin - Install combo-pinyin input schema for RIME
+app-i18n/rime-data:double-pinyin - Install double-pinyin input schema for RIME
+app-i18n/rime-data:emoji - Install emoji input schema for RIME
+app-i18n/rime-data:extra - Install extra packages
+app-i18n/rime-data:ipa - Install ipa input schema and dictionary for RIME
+app-i18n/rime-data:luna-pinyin - Install luna-pinyin input schema and dictionary for RIME
+app-i18n/rime-data:middle-chinese - Install middle-chinese input schema and dictionary for RIME
+app-i18n/rime-data:pinyin-simp - Install pinyin-simp input schema and dictionary for RIME
+app-i18n/rime-data:quick - Install quick input schema and dictionary for RIME
+app-i18n/rime-data:scj - Install scj input schema and dictionary for RIME
+app-i18n/rime-data:soutzoe - Install soutzoe input schema for RIME
+app-i18n/rime-data:stenotype - Install stenotype input schema for RIME
+app-i18n/rime-data:stroke - Install stroke input schema and dictionary for RIME
+app-i18n/rime-data:terra-pinyin - Install terra-pinyin input schema and dictionary for RIME
+app-i18n/rime-data:wubi - Install wubi input schema and dictionary for RIME
+app-i18n/rime-data:wugniu - Install wugniu input schema and dictionary for RIME
 net-proxy/v2ray-core:tool - Build the additional tool: v2ctl
 net-proxy/v2ray-core-bin:separate-geo - Separate geoip.dat and geosite.dat from this binary package
 net-proxy/v2ray-core-bin:tiny-geoip - Only geoip:cn and geoip:private available for small size

@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=!app-i18n/rime-data:0
+DESCRIPTION=bopomofo input schema for RIME
+EAPI=8
+HOMEPAGE=https://rime.im/ https://github.com/rime/rime-bopomofo
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+PDEPEND=app-i18n/rime-data-terra-pinyin
+RDEPEND=!app-i18n/rime-data:0
+SLOT=0
+SRC_URI=https://github.com/rime/rime-bopomofo/archive/c7618f4f5728e1634417e9d02ea50d82b71956ab.tar.gz -> rime-bopomofo-0.0.0.20210131.tar.gz
+_md5_=9eaccf793a248d7096e7982a53444ffb

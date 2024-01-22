@@ -17,6 +17,26 @@ app-crypt/keybase 6.0.2-r1 6.2.3: Keybase command-line utility, and local servic
 app-eselect/eselect-go 20230312: Manages multiple Go versions
 app-i18n/fcitx-bamboo 1.0.4: Typing Vietnamese by Bamboo core engine for Fcitx5
 app-i18n/fcitx-meta 5.0.12: Merge this to pull in Fcitx packages
+app-i18n/rime-data 0.0.0.20230204: Data resources for Rime Input Method Engine
+app-i18n/rime-data-array 0.0.0.20221120: array input schema and dictionary for RIME
+app-i18n/rime-data-bopomofo 0.0.0.20210131: bopomofo input schema for RIME
+app-i18n/rime-data-cangjie 0.0.0.20231211: cangjie input schema and dictionary for RIME
+app-i18n/rime-data-combo-pinyin 0.0.0.20221020: combo-pinyin input schema for RIME
+app-i18n/rime-data-double-pinyin 0.0.0.20190120: double-pinyin input schema for RIME
+app-i18n/rime-data-emoji 15.0: emoji input schema for RIME
+app-i18n/rime-data-ipa 0.0.0.20200413: ipa input schema and dictionary for RIME
+app-i18n/rime-data-luna-pinyin 0.0.0.20230204: luna-pinyin input schema and dictionary for RIME
+app-i18n/rime-data-middle-chinese 0.0.0.20210927: middle-chinese input schema and dictionary for RIME
+app-i18n/rime-data-pinyin-simp 0.0.0.20230104: pinyin-simp input schema and dictionary for RIME
+app-i18n/rime-data-prelude 0.0.0.20220410: Essential files for building up Rime configuration
+app-i18n/rime-data-quick 0.0.0.20190120: quick input schema and dictionary for RIME
+app-i18n/rime-data-scj 0.0.0.20190120: scj input schema and dictionary for RIME
+app-i18n/rime-data-soutzoe 0.0.0.20190120: soutzoe input schema for RIME
+app-i18n/rime-data-stenotype 0.0.0.20191007: stenotype input schema for RIME
+app-i18n/rime-data-stroke 0.0.0.20231207: stroke input schema and dictionary for RIME
+app-i18n/rime-data-terra-pinyin 0.0.0.20230207: terra-pinyin input schema and dictionary for RIME
+app-i18n/rime-data-wubi 0.0.0.20231025: wubi input schema and dictionary for RIME
+app-i18n/rime-data-wugniu 0.0.0.20190120: wugniu input schema and dictionary for RIME
 app-misc/razergenie 9999: Razer devices configurator
 app-text/tldr-c 1.6.1: C command-line client for tldr pages
 dev-lang/go 1.20.13 1.21.6: A concurrent garbage collected and typesafe programming language

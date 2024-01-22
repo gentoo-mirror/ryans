@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=!app-i18n/rime-data:0
+DESCRIPTION=ipa input schema and dictionary for RIME
+EAPI=8
+HOMEPAGE=https://rime.im/ https://github.com/rime/rime-ipa
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=!app-i18n/rime-data:0
+SLOT=0
+SRC_URI=https://github.com/rime/rime-ipa/archive/22b71710e029bcb412e9197192a638ab11bc2abf.tar.gz -> rime-ipa-0.0.0.20200413.tar.gz
+_md5_=cc449685b2f415e83b1796f4c7f6876e

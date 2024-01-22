@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=!app-i18n/rime-data:0
+DESCRIPTION=middle-chinese input schema and dictionary for RIME
+EAPI=8
+HOMEPAGE=https://rime.im/ https://github.com/rime/rime-middle-chinese
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=!app-i18n/rime-data:0
+SLOT=0
+SRC_URI=https://github.com/rime/rime-middle-chinese/archive/582e144e525525ac2b6c2498097d7c7919e84174.tar.gz -> rime-middle-chinese-0.0.0.20210927.tar.gz
+_md5_=19d4e23d4e0aa2d6296c162550453897

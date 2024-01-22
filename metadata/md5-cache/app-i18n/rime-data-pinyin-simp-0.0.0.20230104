@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=!app-i18n/rime-data:0
+DESCRIPTION=pinyin-simp input schema and dictionary for RIME
+EAPI=8
+HOMEPAGE=https://rime.im/ https://github.com/rime/rime-pinyin-simp
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=!app-i18n/rime-data:0
+SLOT=0
+SRC_URI=https://github.com/rime/rime-pinyin-simp/archive/52b9c75f085479799553f2499c4f4c611d618cdf.tar.gz -> rime-pinyin-simp-0.0.0.20230104.tar.gz
+_md5_=1acddfbb41f01f1da9405ebfe0016948

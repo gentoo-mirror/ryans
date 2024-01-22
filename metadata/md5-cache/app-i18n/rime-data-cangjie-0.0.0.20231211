@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=!app-i18n/rime-data:0
+DESCRIPTION=cangjie input schema and dictionary for RIME
+EAPI=8
+HOMEPAGE=https://rime.im/ https://github.com/rime/rime-cangjie
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=!app-i18n/rime-data:0
+SLOT=0
+SRC_URI=https://github.com/rime/rime-cangjie/archive/75b10325bf4c590a3ffef7039a6f052a729edc55.tar.gz -> rime-cangjie-0.0.0.20231211.tar.gz
+_md5_=4b2ab2775f40b56d867db797d92c6514

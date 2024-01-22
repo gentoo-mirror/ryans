@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=!app-i18n/rime-data:0
+DESCRIPTION=double-pinyin input schema for RIME
+EAPI=8
+HOMEPAGE=https://rime.im/ https://github.com/rime/rime-double-pinyin
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+PDEPEND=app-i18n/rime-data-luna-pinyin
+RDEPEND=!app-i18n/rime-data:0
+SLOT=0
+SRC_URI=https://github.com/rime/rime-double-pinyin/archive/69bf85d4dfe8bac139c36abbd68d530b8b6622ea.tar.gz -> rime-double-pinyin-0.0.0.20190120.tar.gz
+_md5_=40dbaabe48f98de27c634cb2f1897de5

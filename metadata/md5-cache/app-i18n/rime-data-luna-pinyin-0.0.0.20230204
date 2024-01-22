@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=!app-i18n/rime-data:0
+DESCRIPTION=luna-pinyin input schema and dictionary for RIME
+EAPI=8
+HOMEPAGE=https://rime.im/ https://github.com/rime/rime-luna-pinyin
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-3
+RDEPEND=!app-i18n/rime-data:0
+SLOT=0
+SRC_URI=https://github.com/rime/rime-luna-pinyin/archive/79aeae200a7370720be98232844c0715f277e1c0.tar.gz -> rime-luna-pinyin-0.0.0.20230204.tar.gz
+_md5_=a84b4d53c5584ba4c8e3e46bd110a69c

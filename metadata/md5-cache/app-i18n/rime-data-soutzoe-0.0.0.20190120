@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=!app-i18n/rime-data:0
+DESCRIPTION=soutzoe input schema for RIME
+EAPI=8
+HOMEPAGE=https://rime.im/ https://github.com/rime/rime-soutzoe
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=!app-i18n/rime-data:0
+SLOT=0
+SRC_URI=https://github.com/rime/rime-soutzoe/archive/beeaeca72d8e17dfd1e9af58680439e9012987dc.tar.gz -> rime-soutzoe-0.0.0.20190120.tar.gz
+_md5_=26e8cbd6d9361eee0d25326b3f82e128
