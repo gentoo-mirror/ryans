@@ -15,7 +15,6 @@ app-i18n/rime-data:cangjie - Install cangjie input schema and dictionary for RIM
 app-i18n/rime-data:combo-pinyin - Install combo-pinyin input schema for RIME
 app-i18n/rime-data:double-pinyin - Install double-pinyin input schema for RIME
 app-i18n/rime-data:emoji - Install emoji input schema for RIME
-app-i18n/rime-data:extra - Install extra packages
 app-i18n/rime-data:ipa - Install ipa input schema and dictionary for RIME
 app-i18n/rime-data:luna-pinyin - Install luna-pinyin input schema and dictionary for RIME
 app-i18n/rime-data:middle-chinese - Install middle-chinese input schema and dictionary for RIME
