@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=!app-i18n/rime-data:0
 SLOT=0
-SRC_URI=https://github.com/rime/rime-array/archive/b37aad383ff6e71e457aa6d1d47d2040af8649b9.tar.gz -> rime-array-0.0.0.20221120.tar.gz
-_md5_=b3e5aeec285abc0e48745ccabfd1ea01
+SRC_URI=https://github.com/rime/rime-array/archive/b37aad383ff6e71e457aa6d1d47d2040af8649b9.tar.gz -> rime-data-array-0.0.0.20221120.tar.gz
+_md5_=91bac8fc09f092688a0e433124e00d42

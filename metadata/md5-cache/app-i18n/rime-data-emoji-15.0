@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-3
 RDEPEND=!app-i18n/rime-data:0
 SLOT=0
-SRC_URI=https://github.com/rime/rime-emoji/archive/refs/tags/15.0.tar.gz -> rime-emoji-15.0.tar.gz
-_md5_=cd4fd725f2130f8f2210be241e4b8fa3
+SRC_URI=https://github.com/rime/rime-emoji/archive/refs/tags/15.0.tar.gz -> rime-data-emoji-15.0.tar.gz
+_md5_=d7c510d9fc7a6fab3845b529b409fed1

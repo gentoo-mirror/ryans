@@ -8,5 +8,5 @@ LICENSE=GPL-3
 PDEPEND=app-i18n/rime-data-luna-pinyin
 RDEPEND=!app-i18n/rime-data:0
 SLOT=0
-SRC_URI=https://github.com/rime/rime-stenotype/archive/f3e9189d5ce33c55d3936cc58e39d0c88b3f0c88.tar.gz -> rime-stenotype-0.0.0.20191007.tar.gz
-_md5_=ff76a9e2df169a604d73296db8d27ad1
+SRC_URI=https://github.com/rime/rime-stenotype/archive/f3e9189d5ce33c55d3936cc58e39d0c88b3f0c88.tar.gz -> rime-data-stenotype-0.0.0.20191007.tar.gz
+_md5_=6e8766910187705a301922cc84ab32e8

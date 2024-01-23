@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-3
 RDEPEND=!app-i18n/rime-data:0
 SLOT=0
-SRC_URI=https://github.com/rime/rime-terra-pinyin/archive/9427853de91d645d9aca9ceace8fe9e9d8bc5b50.tar.gz -> rime-terra-pinyin-0.0.0.20230207.tar.gz
-_md5_=627ebf5a322d076289f3b60e1806f971
+SRC_URI=https://github.com/rime/rime-terra-pinyin/archive/9427853de91d645d9aca9ceace8fe9e9d8bc5b50.tar.gz -> rime-data-terra-pinyin-0.0.0.20230207.tar.gz
+_md5_=cef62359671986253365a6061bcf0130

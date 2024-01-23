@@ -7,5 +7,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=!app-i18n/rime-data:0
 SLOT=0
-SRC_URI=https://github.com/rime/rime-scj/archive/cab5a0858765eff0553dd685a2d61d5536e9149c.tar.gz -> rime-scj-0.0.0.20190120.tar.gz
-_md5_=9513a8ba0e7d38016a054ea05de65d4c
+SRC_URI=https://github.com/rime/rime-scj/archive/cab5a0858765eff0553dd685a2d61d5536e9149c.tar.gz -> rime-data-scj-0.0.0.20190120.tar.gz
+_md5_=465780014238b0a949ed25cd81a35877

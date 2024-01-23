@@ -8,5 +8,5 @@ LICENSE=GPL-3
 PDEPEND=app-i18n/rime-data-luna-pinyin
 RDEPEND=!app-i18n/rime-data:0
 SLOT=0
-SRC_URI=https://github.com/rime/rime-combo-pinyin/archive/17b66079a23a00d3214639fee2b8ae97d3e620dc.tar.gz -> rime-combo-pinyin-0.0.0.20221020.tar.gz
-_md5_=0c7a37d3e8b20e9091c2e57d33a647db
+SRC_URI=https://github.com/rime/rime-combo-pinyin/archive/17b66079a23a00d3214639fee2b8ae97d3e620dc.tar.gz -> rime-data-combo-pinyin-0.0.0.20221020.tar.gz
+_md5_=43dc64844fa0e4579b2fa8cc9dbf2dd3
