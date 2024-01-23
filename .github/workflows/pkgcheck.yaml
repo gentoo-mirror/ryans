@@ -1,3 +1,8 @@
+#
+# @author: Ryan Tsien
+# @email: i@bitbili.net
+#
+
 name: pkgcheck
 
 on:
@@ -7,11 +12,15 @@ on:
       - main
     paths-ignore:
       - '.github/**'
+      - '.gitignore'
+      - 'README.md'
   pull_request:
     branches:
       - main
     paths-ignore:
       - '.github/**'
+      - '.gitignore'
+      - 'README.md'
     types: [opened, reopened, synchronize]
   schedule:
     - cron: 16 9 * * *
@@ -89,7 +98,7 @@ jobs:
         run: |
           set -o pipefail
           set +e
-          datetime="$(date -u '+%Y-%m-%d %H:%M:%S')"
+          datetime="$(date -u '+%Y-%m-%d %H:%M:%S %Z')"
 
           _do() {
             set -- "$@"
