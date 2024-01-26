@@ -63,4 +63,3 @@ sys-apps/openrazer-driver 3.6.1 3.6.1-r1: A collection of kernel drivers for Raz
 www-apps/bark-server 2.1.4 2.1.5: A server that allows to get/push customized notifications
 www-apps/cryptpad 5.2.1 5.5.0: Collaboration suite, end-to-end encrypted and open-source.
 www-apps/filebrowser 2.27.0: Web File Browser
-x11-libs/xcb-imdkit 1.0.5: Input method development support for xcb
