@@ -1,5 +1,5 @@
-BDEPEND=|| ( dev-lang/go dev-lang/go-bootstrap )
-DEFINED_PHASES=compile install postinst postrm preinst test
+BDEPEND=|| ( >=dev-lang/go-1.17.13 >=dev-lang/go-bootstrap-1.17.13 )
+DEFINED_PHASES=compile install postinst postrm setup test
 DESCRIPTION=A concurrent garbage collected and typesafe programming language
 EAPI=8
 HOMEPAGE=https://go.dev
@@ -12,4 +12,4 @@ RESTRICT=strip
 SLOT=1.20/13
 SRC_URI=https://storage.googleapis.com/golang/go1.20.13.src.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=2330d8f11647fe2c5f6325cd6b00b361
+_md5_=7c078befbf3de5a1fa6a45a37238c1c3
