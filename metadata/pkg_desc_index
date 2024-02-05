@@ -41,9 +41,9 @@ app-misc/razergenie 9999: Razer devices configurator
 app-text/tldr-c 1.6.1: C command-line client for tldr pages
 dev-lang/go 1.20.13 1.21.6: A concurrent garbage collected and typesafe programming language
 dev-libs/libopenrazer 9999: Libraries for razergenie.
-dev-libs/v2ray-domain-list-community 5.20231215153121 9999: Community managed domain list for V2Ray.
-dev-libs/v2ray-domain-list-community-bin 5.20231215153121 9999: Community managed domain list for V2Ray.
-dev-libs/v2ray-geoip-bin 5.202312140039 9999: GeoIP for V2Ray.
+dev-libs/v2ray-domain-list-community 5.20240131105845 9999: Community managed domain list for V2Ray.
+dev-libs/v2ray-domain-list-community-bin 5.20240131105845 9999: Community managed domain list for V2Ray.
+dev-libs/v2ray-geoip-bin 5.202402010040 9999: GeoIP for V2Ray.
 dev-util/act 0.2.57: Run your GitHub Actions locally
 dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
