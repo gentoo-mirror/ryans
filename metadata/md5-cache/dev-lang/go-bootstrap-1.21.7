@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Bootstrap package for dev-lang/go
+EAPI=8
+HOMEPAGE=https://golang.org
+IUSE=abi_mips_n64 abi_mips_o32 big-endian
+KEYWORDS=-* ~amd64 ~arm64 ~loong ~mips ~ppc64 ~riscv ~s390 ~x86 ~amd64-linux ~x86-linux ~arm64-macos ~x64-macos ~x64-solaris
+LICENSE=BSD
+RESTRICT=strip
+SLOT=0
+SRC_URI=amd64? ( https://go.dev/dl//go1.21.7.linux-amd64.tar.gz ) arm64? ( https://go.dev/dl//go1.21.7.linux-arm64.tar.gz ) loong? ( https://go.dev/dl//go1.21.7.linux-loong64.tar.gz ) mips? ( abi_mips_o32? ( big-endian? ( https://go.dev/dl//go1.21.7.linux-mips.tar.gz ) !big-endian? ( https://go.dev/dl//go1.21.7.linux-mipsle.tar.gz ) ) abi_mips_n64? ( big-endian? ( https://go.dev/dl//go1.21.7.linux-mips64.tar.gz ) !big-endian? ( https://go.dev/dl//go1.21.7.linux-mips64le.tar.gz ) ) ) ppc64? ( big-endian? ( https://go.dev/dl//go1.21.7.linux-ppc64.tar.gz ) !big-endian? ( https://go.dev/dl//go1.21.7.linux-ppc64le.tar.gz ) ) riscv? ( https://go.dev/dl//go1.21.7.linux-riscv64.tar.gz ) s390? ( https://go.dev/dl//go1.21.7.linux-s390x.tar.gz ) x86? ( https://go.dev/dl//go1.21.7.linux-386.tar.gz ) x64-macos? ( https://go.dev/dl//go1.21.7.darwin-amd64.tar.gz ) arm64-macos? ( https://go.dev/dl//go1.21.7.darwin-arm64.tar.gz ) x64-solaris? ( https://go.dev/dl//go1.21.7.solaris-amd64.tar.gz )
+_md5_=c09740824f8ae73fbe081bf330236e3c
