@@ -1,0 +1,8 @@
+DEFINED_PHASES=install
+DESCRIPTION=@golang-rebuild set configuration
+EAPI=8
+KEYWORDS=-* ~amd64 ~arm ~arm64 ~loong ~mips ~ppc64 ~riscv ~s390 ~x86 ~amd64-linux ~x86-linux ~arm64-macos ~x64-macos ~x64-solaris
+LICENSE=BSD
+RESTRICT=test
+SLOT=0
+_md5_=6bb67d5a359dd24c90698085c42ce215
