@@ -46,6 +46,7 @@ dev-libs/libopenrazer 9999: Libraries for razergenie.
 dev-libs/v2ray-domain-list-community 5.20240131105845 9999: Community managed domain list for V2Ray.
 dev-libs/v2ray-domain-list-community-bin 5.20240131105845 9999: Community managed domain list for V2Ray.
 dev-libs/v2ray-geoip-bin 5.202402010040 9999: GeoIP for V2Ray.
+dev-python/jieba 0.42.1: Chinese Words Segmentation Utilities
 dev-util/act 0.2.57: Run your GitHub Actions locally
 dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
