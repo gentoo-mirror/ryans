@@ -1,4 +1,4 @@
-BDEPEND=|| ( >=dev-lang/go-1.20.0 >=dev-lang/go-bootstrap-1.20.0 )
+BDEPEND=|| ( >=dev-lang/go-1.17.13 >=dev-lang/go-bootstrap-1.17.13 )
 DEFINED_PHASES=compile install postinst postrm setup test
 DESCRIPTION=A concurrent garbage collected and typesafe programming language
 EAPI=8
@@ -9,7 +9,7 @@ KEYWORDS=-* ~amd64 ~arm ~arm64 ~loong ~mips ~ppc64 ~riscv ~s390 ~x86 ~amd64-linu
 LICENSE=BSD
 RDEPEND=app-eselect/eselect-go dev-libs/golang-rebuild-set
 RESTRICT=strip
-SLOT=1.22/2
-SRC_URI=https://storage.googleapis.com/golang/go1.22.2.src.tar.gz
+SLOT=1.21/10
+SRC_URI=https://storage.googleapis.com/golang/go1.21.10.src.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=4b9be553d2b8f3ba9571ecb3e7d9718d
+_md5_=9a96e2675932f62a09f60fc9d4ca39d1
