@@ -44,8 +44,8 @@ dev-lang/go-bootstrap 1.21.7: Bootstrap package for dev-lang/go
 dev-libs/golang-rebuild-set 0: @golang-rebuild set configuration
 dev-libs/libopenrazer 9999: Libraries for razergenie.
 dev-libs/v2ray-domain-list-community 5.20240131105845 9999: Community managed domain list for V2Ray.
-dev-libs/v2ray-domain-list-community-bin 5.20240131105845 9999: Community managed domain list for V2Ray.
-dev-libs/v2ray-geoip-bin 5.202402010040 9999: GeoIP for V2Ray.
+dev-libs/v2ray-domain-list-community-bin 5.20240508170917 9999: Community managed domain list for V2Ray.
+dev-libs/v2ray-geoip-bin 5.202405230041 9999: GeoIP for V2Ray.
 dev-python/jieba 0.42.1: Chinese Words Segmentation Utilities
 dev-util/act 0.2.57: Run your GitHub Actions locally
 dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
@@ -56,7 +56,7 @@ net-im/dendrite 0.13.5: Dendrite is a second-generation Matrix homeserver writte
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-misc/keycloak-bin 21.0.1 22.0.5: Open Source Identity and Access Management
 net-misc/matterbridge-bin 1.26.0: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
-net-proxy/v2ray-core 4.45.2-r1 5.13.0: A platform for building proxies to bypass network restrictions.
+net-proxy/v2ray-core 4.45.2-r1 5.13.0 5.16.1: A platform for building proxies to bypass network restrictions.
 net-proxy/v2ray-core-bin 4.45.2 5.2.1: A platform for building proxies to bypass network restrictions.
 net-vpn/headscale 0.22.3 0.23.0_alpha3: An open source, self-hosted implementation of the Tailscale control server
 net-vpn/tailscale 1.38.4 1.42.0 1.58.2 1.60.0 1.66.3 1.66.3-r1: Tailscale VPN client and CLI tools
