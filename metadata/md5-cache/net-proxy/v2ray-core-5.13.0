@@ -12,5 +12,5 @@ REQUIRED_USE=arm64-macos? ( pie )
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/v2fly/v2ray-core/archive/refs/tags/v5.13.0.tar.gz -> v2ray-core-5.13.0.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-v2ray-core-5.13.0.tar.gz -> v2ray-core-5.13.0-vendor.tar.gz
-_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	version	7d27b7786280729d7491350e2bac074e	go	1cde3bd9981ff927bdce93e8961b22b9	toolchain-funcs	333970c740aa7b1a92e4fcdc52f612bd	multilib	c19072c3cd7ac5cb21de013f7e9832e0	systemd	c8b03e8df84486aa991d4396686e8942
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	version	7d27b7786280729d7491350e2bac074e	go	1cde3bd9981ff927bdce93e8961b22b9	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	systemd	0f241b5c9f3758c3d3423df59a7f655a
 _md5_=30e0d4af029bc7545051e0331cfaaf04
