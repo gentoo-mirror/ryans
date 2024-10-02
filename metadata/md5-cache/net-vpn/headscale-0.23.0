@@ -1,4 +1,4 @@
-BDEPEND=>=dev-lang/go-1.20:= >=dev-lang/go-1.16 virtual/pkgconfig
+BDEPEND=>=dev-lang/go-1.23:= >=dev-lang/go-1.16 virtual/pkgconfig
 DEFINED_PHASES=compile install postinst prepare unpack
 DESCRIPTION=An open source, self-hosted implementation of the Tailscale control server
 EAPI=8
@@ -10,6 +10,6 @@ LICENSE=Apache-2.0 BSD-2 BSD MIT MPL-2.0
 RDEPEND=acct-group/headscale acct-user/headscale virtual/tmpfiles
 RESTRICT=strip
 SLOT=0
-SRC_URI=https://github.com/juanfont/headscale/archive/refs/tags/v0.23.0-alpha3.tar.gz -> headscale-0.23.0_alpha3.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-headscale-0.23.0-alpha3.tar.gz -> headscale-0.23.0_alpha3-vendor.tar.gz
+SRC_URI=https://github.com/juanfont/headscale/archive/refs/tags/v0.23.0.tar.gz -> headscale-0.23.0.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-headscale-0.23.0.tar.gz -> headscale-0.23.0-vendor.tar.gz
 _eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	version	7d27b7786280729d7491350e2bac074e	go	1cde3bd9981ff927bdce93e8961b22b9	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	systemd	0f241b5c9f3758c3d3423df59a7f655a	tmpfiles	abdfd90f8841c1cb4b94575d5d109952
-_md5_=03cbc67a7fe502ec98a532a82f4f29f7
+_md5_=cd51213e6e55a7fd6d68c436e20fdf9b
