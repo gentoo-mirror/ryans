@@ -1,13 +1,11 @@
 acct-group/bark-server 0: Group for the www-apps/bark-server service
 acct-group/cryptpad 0: Group for the www-apps/cryptpad service
-acct-group/dendrite 0: Group for the net-im/dendrite service
 acct-group/derper 0: Group for the DERP service of net-vpn/tailscale
 acct-group/filebrowser 0: Group for the www-apps/filebrowser service
 acct-group/keycloak 0: Group for the keycloak daemon
 acct-group/matterbridge 0: Group for the net-misc/matterbridge{,-bin} service
 acct-user/bark-server 0: User for the www-apps/bark-server service
 acct-user/cryptpad 0: User for the www-apps/cryptpad service
-acct-user/dendrite 0: User for the net-im/dendrite service
 acct-user/derper 0: User for the DERP service of net-vpn/tailscale
 acct-user/filebrowser 0: User for the www-apps/filebrowser service
 acct-user/keycloak 0: User for the keycloak daemon
@@ -52,7 +50,6 @@ dev-util/v2ray-geoip-generator 9999: GeoIP generator for V2Ray.
 kde-misc/krunner-pass 9999: (Modified type instead version) Integrates krunner with pass
 media-gfx/weasis-bin 4.2.0: A DICOM viewer available as a desktop application or as a web-based application.
 media-sound/qqmusic-bin 1.1.5: Tencent QQ Music for Linux.
-net-im/dendrite 0.13.5: Dendrite is a second-generation Matrix homeserver written in Go!
 net-im/linuxqq-bin 2.0.0_beta2_p1089: Tencent QQ.
 net-misc/keycloak-bin 25.0.6 26.0.0: Open Source Identity and Access Management
 net-misc/matterbridge-bin 1.26.0: a simple chat bridge, IRC | Matrix | Mattermost | Telegram | XMPP | And more...
