@@ -11,5 +11,5 @@ RDEPEND=net-firewall/iptables derp? ( acct-user/derper acct-group/derper ) virtu
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/tailscale/tailscale/archive/v1.42.0.tar.gz -> tailscale-1.42.0.tar.gz https://github.com/bekcpear/gopkg-vendors/archive/refs/tags/vendor-tailscale-1.42.0.tar.gz -> tailscale-1.42.0-vendor.tar.gz
-_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	version	7d27b7786280729d7491350e2bac074e	go	1cde3bd9981ff927bdce93e8961b22b9	toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
+_eclasses_=edo	367e103a74bf77e6a8da7894d999fa3c	version	7d27b7786280729d7491350e2bac074e	go	1cde3bd9981ff927bdce93e8961b22b9	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0	tmpfiles	9a9814db5a3fbd4f1e921c05297e7735
 _md5_=de1c67a19cb722c2b2855adc675dc7eb
