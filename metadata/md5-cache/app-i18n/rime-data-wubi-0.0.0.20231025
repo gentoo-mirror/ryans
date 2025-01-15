@@ -9,5 +9,5 @@ LICENSE=LGPL-3
 RDEPEND=!app-i18n/rime-data:0
 SLOT=0
 SRC_URI=https://github.com/rime/rime-wubi/archive/152a0d3f3efe40cae216d1e3b338242446848d07.tar.gz -> rime-data-wubi-0.0.0.20231025.tar.gz
-_eclasses_=optfeature	222cb475c5a4f7ae7cfb0bf510a6fe54
+_eclasses_=optfeature	538bce96e5589935b57e178e8635f301
 _md5_=ac5c951ac07a2723ed8e64c7bd0d4ffa
