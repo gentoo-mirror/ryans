@@ -9,5 +9,5 @@ LICENSE=AGPL-3
 RDEPEND=>=net-libs/nodejs-12.14.0 acct-user/cryptpad acct-group/cryptpad
 SLOT=0
 SRC_URI=https://github.com/xwiki-labs/cryptpad/archive/refs/tags/5.5.0.tar.gz -> cryptpad-5.5.0.tar.gz https://github.com/bekcpear/cryptpad-release/archive/refs/tags/5.5.0.tar.gz -> cryptpad-release-5.5.0.tar.gz
-_eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0
+_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	systemd	54bd206bb5c4efac6ae28b6b006713b0
 _md5_=af28b49476d0dba85ce2f00a75619867
