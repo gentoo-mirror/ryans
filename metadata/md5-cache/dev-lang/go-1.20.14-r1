@@ -11,5 +11,5 @@ RDEPEND=app-eselect/eselect-go dev-libs/golang-rebuild-set
 RESTRICT=strip
 SLOT=1.20/14
 SRC_URI=https://storage.googleapis.com/golang/go1.20.14.src.tar.gz
-_eclasses_=toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0
+_eclasses_=toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db
 _md5_=3c4d66e482bed13b13f11ee4aadb0d63
